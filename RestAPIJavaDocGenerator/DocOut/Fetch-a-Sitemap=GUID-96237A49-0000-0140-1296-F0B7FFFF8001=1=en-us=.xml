@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference outputclass="NewPage" id="GUID-96237A49-0000-0140-1296-F0B7FFFF8001">
+<title>Fetch a Sitemap</title>
+<shortdesc>Fetches the sitemap describing the publications within SDL LiveContent Reach.</shortdesc>
+<refbody>
+<section>
+<title>Request</title>
+<p>
+<parmname>URI: </parmname>
+<codeph>/v2/sitemap</codeph>
+</p>
+<p>
+<parmname>HTTP Method: </parmname>GET</p>
+<p>
+<b>Header params:</b>
+<ul>
+<li>
+<parmname>Content-Type: </parmname>
+<codeph>[application/xml]</codeph>
+</li>
+</ul>
+</p>
+</section>
+<section>
+<title>Response</title>
+<p>
+<b>Success</b>
+<ul>
+<li>
+<parmname>XML:</parmname>
+<codeph>&lt;urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9&amp;#x9;http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"&gt;&lt;url&gt;&lt;loc&gt;http://localhost:4444/LiveContent/content/en/LiveContentDoc/GUID-00C07F29-027C-4A54-A645-DFFF0BFE189E&lt;/loc&gt;&lt;lastmod&gt;2013-05-28T10:59:23.832-04:00&lt;/lastmod&gt;&lt;changefreq&gt;monthly&lt;/changefreq&gt;&lt;priority&gt;1.0&lt;/priority&gt;&lt;/url&gt;&lt;/urlset&gt;</codeph>
+</li>
+</ul>
+</p>
+<p>
+<b>Failed</b>
+<ul>
+<li>
+<parmname>XML:</parmname>
+<codeph>&lt;result message="Sitemap resource is not found!" messageKey="Sitemap resource is not found!" status="FAIL" statusCode="404" /&gt; </codeph>
+</li>
+</ul>
+</p>
+</section>
+<section>
+<title>Permissions</title>
+<p>"Use application"</p>
+</section>
+<section>
+<title>Example</title>
+<p>
+<b>Request:</b>
+</p>
+<p>
+<b>GET</b> <codeph>http://example.corp:8080/LiveContent/v2/sitemap</codeph>
+</p>
+<p>
+<b>Response:</b>
+</p>
+<p>
+<codeph>&lt;urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9&amp;#x9;http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"&gt;&lt;url&gt;&lt;loc&gt;http://localhost:4444/LiveContent/content/en/LiveContentDoc/GUID-00C07F29-027C-4A54-A645-DFFF0BFE189E&lt;/loc&gt;&lt;lastmod&gt;2013-05-28T10:59:23.832-04:00&lt;/lastmod&gt;&lt;changefreq&gt;monthly&lt;/changefreq&gt;&lt;priority&gt;1.0&lt;/priority&gt;&lt;/url&gt;&lt;/urlset&gt;</codeph>
+</p>
+</section>
+</refbody>
+</reference>

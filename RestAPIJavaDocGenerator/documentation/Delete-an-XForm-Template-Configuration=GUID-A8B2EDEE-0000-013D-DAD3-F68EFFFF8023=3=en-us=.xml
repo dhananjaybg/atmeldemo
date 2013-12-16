@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference outputclass="NewPage" id="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8023">
+   <title>Delete an XForm Template Configuration</title>
+   <shortdesc>Deletes the XForm template configuration identified by its ID.</shortdesc>
+   <refbody>
+      <section>
+         <p>If you delete an XForm template configuration, all instances of that form (comments, for example) will also be deleted.</p>
+      </section>
+      <section>
+         <title>Request</title>
+         <p>
+            <parmname>URI: </parmname>
+            <codeph>/v2/xforms/config/{id}</codeph>
+         </p>
+         <p>
+            <parmname>HTTP Method: </parmname>DELETE</p>
+         <p>
+            <b>Header params:</b>
+            <ul>
+               <li>
+                  <parmname>Accept: </parmname>
+                  <codeph>[application/json] OR [application/xml]</codeph>
+               </li>
+               <li>
+                  <parmname>Content-Type: </parmname>
+                  <codeph>[application/json] OR [application/xml]</codeph>
+               </li>
+            </ul>
+         </p>
+         <p>
+            <parmname>PATH Parameter(s):</parmname>
+            <ul>
+               <li>
+                  <b>id: </b>The ID of the XForm template configuration to delete.</li>
+            </ul>
+         </p>
+      </section>
+      <section>
+         <title>Response</title>
+         <p>
+            <b>Success</b>
+            <ul>
+               <li>
+                  <parmname>XML:</parmname>
+                  <codeph>&lt;result statusCode="0" status="SUCCESS" messageKey="Successfully deleted XForm template configuration." message="Successfully deleted XForm template configuration."/&gt;</codeph>
+               </li>
+               <li>
+                  <parmname>JSON:</parmname>
+                  <codeph>{"statusCode":0,"messageKey":"Successfully deleted XForm template configuration.", "message":"Successfully deleted XForm template configuration.", "status":"SUCCESS", "info":[]}</codeph>
+               </li>
+            </ul>
+         </p>
+         <p>
+            <b>Failed</b>
+            <ul>
+               <li>
+                  <parmname>XML:</parmname>
+                  <codeph>&lt;result statusCode="500" status="FAIL" messageKey="msg.delete.fail" message="Failed to delete these items."/&gt;</codeph>
+               </li>
+               <li>
+                  <parmname>JSON:</parmname>
+                  <codeph>{"statusCode":500,"messageKey":"msg.delete.fail", "message":"Failed to delete these items.", "status":"FAIL", "info":[]}</codeph>
+               </li>
+            </ul>
+         </p>
+      </section>
+      <section>
+         <title>Permissions</title>
+         <p>"Develop application"</p>
+      </section>
+      <section>
+         <title>Example</title>
+         <p>
+            <b>Request:</b>
+         </p>
+         <p>
+            <b>DELETE</b> 
+            <codeph>http://example.corp:8080/LiveContent/v2/xforms/config/xform.custom</codeph>
+         </p>
+         <p>
+            <b>Response:</b>
+         </p>
+         <p>
+            <codeph>&lt;result statusCode="0" status="SUCCESS" messageKey="Successfully deleted XForm template configuration." message="Successfully deleted XForm template configuration."/&gt;</codeph>
+         </p>
+      </section>
+   </refbody>
+</reference>

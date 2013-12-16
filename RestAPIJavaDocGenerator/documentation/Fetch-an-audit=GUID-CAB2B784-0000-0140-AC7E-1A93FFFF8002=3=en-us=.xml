@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference outputclass="NewPage" id="GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8002">
+   <title>Fetch an audit</title>
+   <shortdesc>Retrieves and displays an audit trail.</shortdesc>
+   <refbody>
+      <section>
+         <p/>
+      </section>
+      <section>
+         <title>Request</title>
+         <p>
+            <parmname>URI: </parmname>
+            <codeph>/v2/audit/{session_id}</codeph>
+         </p>
+         <p>
+            <parmname>HTTP Method: </parmname>GET</p>
+         <p>
+            <b>Header params:</b>
+            <ul>
+               <li>
+                  <parmname>Accept: </parmname>
+                  <codeph>[application/json] OR [application/xml]</codeph>
+               </li>
+               <li>
+                  <parmname>Content-Type: </parmname>
+                  <codeph>[application/json] OR [application/xml]</codeph>
+               </li>
+            </ul>
+         </p>
+      </section>
+      <section>
+         <title>Response</title>
+         <p>
+            <b>Success</b>
+            <ul>
+               <li>
+                  <parmname>XML:</parmname>
+                  <codeph> &lt;Audit aggregated="no" session_id="rg7y77g6r10g" time="2013-06-04T09:51:32.462-04:00" hostid="283a0990-1d98-4d85-b3f8-63194b7aa9c1" user_agent="Mozilla/5.0 (Windows NT 6.1; WOW64; rv:21.0) Gecko/20100101 Firefox/21.0" browser="Firefox"&gt;&lt;event filterTransId="none" groups="dba" skin="base" time="2013-06-04T09:51:32.462-04:00" type="SetSkin" user="admin"/&gt;&lt;event app_version="6.0.1.130526" filterTransId="none" groups="dba" lang="en" browser="Firefox" host="http://localhost:4444" hosturl="http://localhost:4444/LiveContent/" db_version="1.4.1.0" time="2013-06-04T09:51:32.462-04:00" type="startAuditTrail" user="admin" user_agent="Mozilla/5.0 (Windows NT 6.1; WOW64; rv:21.0) Gecko/20100101 Firefox/21.0" id="Session" last_access="2013-06-03T16:16:16.407-04:00" refer="" session_id="rg7y77g6r10g" start="2013-06-04T09:51:32.462-04:00"/&gt;&lt;event filterTransId="none" groups="dba" time="2013-06-04T09:51:32.462-04:00" type="login" user="admin"/&gt;&lt;event ShowAll="all" filterTransId="none" groups="dba" significant="1" time="2013-06-04T09:51:32.462-04:00" type="ViewPubs" user="admin"/&gt;&lt;/Audit&gt;</codeph>
+               </li>
+               <li>
+                  <parmname>JSON:</parmname>
+                  <codeph>{" aggregated":"no","session_id":"rg7y77g6r10g","time":"2013-06-04T09:51:32.462-04:00","hostid":"283a0990-1d98-4d85-b3f8-63194b7aa9c1","user_agent":"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:21.0) Gecko/20100101 Firefox/21.0","browser":"Firefox","event":[{"ShowAll":null,"app_version":null,"filterTransId":"none","groups":"dba","skin":"base","lang":null,"pub":[],"browser":null,"host":null,"hosturl":null,"db_version":null,"significant":null,"time":"2013-06-04T09:51:32.462-04:00","transId":null,"type":"SetSkin","user":"admin","user_agent":null,"eventTime":null,"id":null,"last_access":null,"refer":null,"session_id":null,"start":null},{"ShowAll":null,"app_version":"6.0.1.130526","filterTransId":"none","groups":"dba","skin":null,"lang":"en","pub":[],"browser":"Firefox","host":"http://localhost:4444","hosturl":"http://localhost:4444/LiveContent/","db_version":"1.4.1.0","significant":null,"time":"2013-06-04T09:51:32.462-04:00","transId":null,"type":"startAuditTrail","user":"admin","user_agent":"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:21.0) Gecko/20100101 Firefox/21.0","eventTime":null,"id":"Session","last_access":"2013-06-03T16:16:16.407-04:00","refer":"","session_id":"rg7y77g6r10g","start":"2013-06-04T09:51:32.462-04:00"},{"ShowAll":null,"app_version":null,"filterTransId":"none","groups":"dba","skin":null,"lang":null,"pub":[],"browser":null,"host":null,"hosturl":null,"db_version":null,"significant":null,"time":"2013-06-04T09:51:32.462-04:00","transId":null,"type":"login","user":"admin","user_agent":null,"eventTime":null,"id":null,"last_access":null,"refer":null,"session_id":null,"start":null},{"ShowAll":"all","app_version":null,"filterTransId":"none","groups":"dba","skin":null,"lang":null,"pub":[],"browser":null,"host":null,"hosturl":null,"db_version":null,"significant":"1","time":"2013-06-04T09:51:32.462-04:00","transId":null,"type":"ViewPubs","user":"admin","user_agent":null,"eventTime":null,"id":null,"last_access":null,"refer":null,"session_id":null,"start":null}]}</codeph>
+               </li>
+            </ul>
+         </p>
+      </section>
+      <section>
+         <title>Permissions</title>
+         <p>"Manage application"</p>
+      </section>
+      <section>
+         <title>Example</title>
+         <p>
+            <b>Request:</b>
+         </p>
+         <p>
+            <b>GET </b> 
+            <codeph>http://example.corp:8080/LiveContent/v2/audit/{session_id}</codeph>
+         </p>
+         <p>
+            <b>Response:</b>
+         </p>
+         <p>
+            <codeph> &lt;Audit aggregated="no" session_id="rg7y77g6r10g" time="2013-06-04T09:51:32.462-04:00" hostid="283a0990-1d98-4d85-b3f8-63194b7aa9c1" user_agent="Mozilla/5.0 (Windows NT 6.1; WOW64; rv:21.0) Gecko/20100101 Firefox/21.0" browser="Firefox"&gt;&lt;event filterTransId="none" groups="dba" skin="base" time="2013-06-04T09:51:32.462-04:00" type="SetSkin" user="admin"/&gt;&lt;event app_version="6.0.1.130526" filterTransId="none" groups="dba" lang="en" browser="Firefox" host="http://localhost:4444" hosturl="http://localhost:4444/LiveContent/" db_version="1.4.1.0" time="2013-06-04T09:51:32.462-04:00" type="startAuditTrail" user="admin" user_agent="Mozilla/5.0 (Windows NT 6.1; WOW64; rv:21.0) Gecko/20100101 Firefox/21.0" id="Session" last_access="2013-06-03T16:16:16.407-04:00" refer="" session_id="rg7y77g6r10g" start="2013-06-04T09:51:32.462-04:00"/&gt;&lt;event filterTransId="none" groups="dba" time="2013-06-04T09:51:32.462-04:00" type="login" user="admin"/&gt;&lt;event ShowAll="all" filterTransId="none" groups="dba" significant="1" time="2013-06-04T09:51:32.462-04:00" type="ViewPubs" user="admin"/&gt;&lt;/Audit&gt;</codeph>
+         </p>
+      </section>
+   </refbody>
+</reference>

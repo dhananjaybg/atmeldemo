@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="GUID-D4FFAE43-88A5-4531-A56B-422EC6FC77E5">
+   <title>Search Index Management V2</title>
+   <shortdesc>Resources for creating, updating, deleting, and fetching search indexes.</shortdesc>
+   <refbody>
+      <section>
+         <p>
+            <table>
+               <tgroup cols="6">
+                  <colspec colnum="1" colname="col1" colwidth="*"/>
+                  <colspec colnum="2" colname="col2" colwidth="*"/>
+                  <colspec colnum="3" colname="col3" colwidth="*"/>
+                  <colspec colnum="4" colname="col4" colwidth="*"/>
+                  <colspec colnum="5" colname="col5" colwidth="*"/>
+                  <colspec colnum="6" colname="col6" colwidth="*"/>
+                  <thead>
+                     <row>
+                        <entry colname="col1"> API Call </entry>
+                        <entry colname="col2"> HTTP Method </entry>
+                        <entry colname="col3"> URL </entry>
+                        <entry colname="col4"> Format </entry>
+                        <entry colname="col5"> Form Data </entry>
+                        <entry colname="col6"> Permissions </entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry colname="col1">
+                           <xref format="dita" scope="local" type="reference"
+                                 href="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8019#GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8019">Create Search Index</xref>
+                        </entry>
+                        <entry colname="col2">
+                           <codeph>PUT</codeph>
+                        </entry>
+                        <entry colname="col3">
+                           <filepath>/v2/searchindex/{name}</filepath>
+                        </entry>
+                        <entry colname="col4">
+                           <codeblock>[application/json] OR [application/xml]</codeblock>
+                        </entry>
+                        <entry colname="col5">
+                           <codeblock>{"attribute":"", "id":"exampleID", "ignore":"", "inline":"", "standards":"DITA", "tags":"", "xpath":"//indexterm[not(parent::indexterm)]", "xpath_end":"indexterm"} </codeblock>
+                        </entry>
+                        <entry colname="col6">
+                           <uicontrol>"Manage application"</uicontrol>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry colname="col1">
+                           <xref format="dita" scope="local" type="reference"
+                                 href="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF801A#GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF801A">Delete Search Index</xref>
+                        </entry>
+                        <entry colname="col2">
+                           <codeph>DELETE</codeph>
+                        </entry>
+                        <entry colname="col3">
+                           <filepath>/v2/searchindex/{name}</filepath>
+                        </entry>
+                        <entry colname="col4">
+                           <codeblock>[application/json] OR [application/xml]</codeblock>
+                        </entry>
+                        <entry colname="col5">
+                           <codeblock/>
+                        </entry>
+                        <entry colname="col6">
+                           <uicontrol>"Manage application"</uicontrol>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry colname="col1">
+                           <xref format="dita" scope="local" type="reference"
+                                 href="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8018#GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8018">Fetch Search Indexes</xref>
+                        </entry>
+                        <entry colname="col2">
+                           <codeph>GET</codeph>
+                        </entry>
+                        <entry colname="col3">
+                           <filepath>/v2/searchindex</filepath>
+                        </entry>
+                        <entry colname="col4">
+                           <codeblock>[application/json] OR [application/xml]</codeblock>
+                        </entry>
+                        <entry colname="col5">
+                           <codeblock/>
+                        </entry>
+                        <entry colname="col6">
+                           <uicontrol>"Use application"</uicontrol>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+      </section>
+   </refbody>
+</reference>

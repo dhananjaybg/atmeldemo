@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference outputclass="NewPage" id="GUID-AAA95141-0000-013F-A0E7-2C91FFFF8001">
+   <title>Fetch Standards</title>
+   <shortdesc>Fetches the list of Standards</shortdesc>
+   <refbody>
+      <section>
+         <title>Request</title>
+         <p>
+            <parmname>URI: </parmname>
+            <codeph>v2/standards</codeph>
+         </p>
+         <p>
+            <parmname>HTTP Method: </parmname>GET</p>
+         <p>
+            <b>Header params:</b>
+            <ul>
+               <li>
+                  <parmname>Content-Type: </parmname>
+                  <codeph>[application/json] OR [application/xml]</codeph>
+               </li>
+            </ul>
+         </p>
+      </section>
+      <section>
+         <title>Response</title>
+         <p>
+            <b>Success</b>
+            <ul>
+               <li>
+                  <parmname>XML:</parmname>
+                  <codeph>&lt;configuration&gt;&lt;standards&gt;&lt;standard id="DITA"/&gt;&lt;/standards&gt;&lt;/configuration&gt;</codeph>
+               </li>
+               <li>
+                  <parmname>JSON:</parmname>
+                  <codeph>{"standards":[{"standard":[{"id":"DITA"}]}]}   </codeph>
+               </li>
+            </ul>
+         </p>
+         <p>
+            <b>Failed</b>
+            <ul>
+               <li>
+                  <parmname>XML:</parmname>
+                  <codeph>&lt;result message="Standard Configuration resource is not found!" messageKey="Standard Configuration resource is not found!" status="FAIL" statusCode="404" /&gt; </codeph>
+               </li>
+               <li>
+                  <parmname>JSON:</parmname>
+                  <codeph>{"statusCode":404,"messageKey":"Standard Configuration resource is not found!", "message":"Standard Configuration resource is not found!", "status":"FAIL", "info":[]} </codeph>
+               </li>
+            </ul>
+         </p>
+      </section>
+      <section>
+         <title>Permissions</title>
+         <p>"Develop application"</p>
+      </section>
+      <section>
+         <title>Example</title>
+         <p>
+            <b>Request:</b>
+         </p>
+         <p>
+            <b>GET</b> 
+            <codeph>http://example.corp:8080/LiveContent/v2/standards</codeph>
+         </p>
+         <p>
+            <b>Response:</b>
+         </p>
+         <p>
+            <codeph>&lt;configuration&gt;&lt;standards&gt;&lt;standard id="DITA"/&gt;&lt;/standards&gt;&lt;/configuration&gt;</codeph>
+         </p>
+      </section>
+   </refbody>
+</reference>

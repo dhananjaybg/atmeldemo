@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="GUID-A779FDAB-D480-4001-ADB3-D4A60214D2F7">
+<title>Global Configuration V2</title>
+<shortdesc>Resources to create, update, delete, and fetch the global configuration.</shortdesc>
+<refbody>
+<section>
+<p>
+<table>
+<tgroup cols="6">
+<colspec colwidth="*" colname="col1" colnum="1"/>
+<colspec colwidth="*" colname="col2" colnum="2"/>
+<colspec colwidth="*" colname="col3" colnum="3"/>
+<colspec colwidth="*" colname="col4" colnum="4"/>
+<colspec colwidth="*" colname="col5" colnum="5"/>
+<colspec colwidth="*" colname="col6" colnum="6"/>
+<thead>
+<row>
+<entry colname="col1"> API Call </entry>
+<entry colname="col2"> HTTP Method </entry>
+<entry colname="col3"> URL </entry>
+<entry colname="col4"> Format </entry>
+<entry colname="col5"> Form Data </entry>
+<entry colname="col6"> Permissions </entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1">
+<xref type="reference" scope="local" format="dita" href="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8003#GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8003">Create or Update a Global Configuration Item</xref>
+</entry>
+<entry colname="col2">
+<codeph>PUT</codeph>
+</entry>
+<entry colname="col3">
+<filepath>/v2/config/{item_name}</filepath>
+</entry>
+<entry colname="col4">
+<codeblock>[application/json] OR [application/xml]</codeblock>
+</entry>
+<entry colname="col5">
+<codeblock>{"name":"app.example", "value":"example value"}</codeblock>
+</entry>
+<entry colname="col6">
+<uicontrol>"Manage application"</uicontrol>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<xref type="reference" scope="local" format="dita" href="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8004#GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8004">Delete a Global Configuration Item</xref>
+</entry>
+<entry colname="col2">
+<codeph>DELETE</codeph>
+</entry>
+<entry colname="col3">
+<filepath>/v2/config/{item_name}</filepath>
+</entry>
+<entry colname="col4">
+<codeblock>[application/json] OR [application/xml]</codeblock>
+</entry>
+<entry colname="col5">
+<codeblock/>
+</entry>
+<entry colname="col6">
+<uicontrol>"Manage application"</uicontrol>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<xref type="reference" scope="local" format="dita" href="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8002#GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8002">Fetch a Global Configuration Item</xref>
+</entry>
+<entry colname="col2">
+<codeph>GET</codeph>
+</entry>
+<entry colname="col3">
+<filepath>/v2/config/{item_name}</filepath>
+</entry>
+<entry colname="col4">
+<codeblock>[application/json] OR [application/xml]</codeblock>
+</entry>
+<entry colname="col5">
+<codeblock/>
+</entry>
+<entry colname="col6">
+<uicontrol>"Use application"</uicontrol>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<xref type="reference" scope="local" format="dita" href="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8001#GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8001">Fetch Global Configuration</xref>
+</entry>
+<entry colname="col2">
+<codeph>GET</codeph>
+</entry>
+<entry colname="col3">
+<filepath>/v2/config</filepath>
+</entry>
+<entry colname="col4">
+<codeblock>[application/json] OR [application/xml]</codeblock>
+</entry>
+<entry colname="col5">
+<codeblock/>
+</entry>
+<entry colname="col6">
+<uicontrol>"Use application"</uicontrol>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</p>
+</section>
+</refbody>
+</reference>

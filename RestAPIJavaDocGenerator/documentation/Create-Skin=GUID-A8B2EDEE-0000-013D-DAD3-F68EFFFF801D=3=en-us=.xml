@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference outputclass="NewPage" id="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF801D">
+   <title>Create Skin</title>
+   <shortdesc>Creates the named skin and its resource collections.</shortdesc>
+   <refbody>
+      <section>
+         <p>The name at the end of the URI determines which skin to create.</p>
+      </section>
+      <section>
+         <title>Request</title>
+         <p>
+            <parmname>URI: </parmname>
+            <codeph>/v2/skin/{name}</codeph>
+         </p>
+         <p>
+            <parmname>HTTP Method: </parmname>POST</p>
+         <p>
+            <b>Header params:</b>
+            <ul>
+               <li>
+                  <parmname>Accept: </parmname>
+                  <codeph>[application/json] OR [application/xml]</codeph>
+               </li>
+               <li>
+                  <parmname>Content-Type: </parmname>
+                  <codeph>[application/json] OR [application/xml]</codeph>
+               </li>
+            </ul>
+         </p>
+         <p>
+            <parmname>PATH Parameter(s):</parmname>
+            <ul>
+               <li>
+                  <b>name: </b> The name of the skin item to create.</li>
+            </ul>
+         </p>
+      </section>
+      <section>
+         <title>Response</title>
+         <p>
+            <b>Success</b>
+            <ul>
+               <li>
+                  <parmname>XML:</parmname>
+                  <codeph>&lt;result message="Action = add_skin" messageKey="Action = add_skin" status="SUCCESS" statusCode="0"&gt;&lt;info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="apiInfoModel" name="skin" value="testskin"/&gt;&lt;/result&gt;</codeph>
+               </li>
+               <li>
+                  <parmname>JSON:</parmname>
+                  <codeph>{"statusCode":0,"messageKey":"Action = add_skin", "message":"Action = add_skin", "status":"SUCCESS", "info":[{"name":"skin", "value":"testskin"}]}</codeph>
+               </li>
+            </ul>
+         </p>
+         <p>
+            <b>Failed</b>
+            <ul>
+               <li>
+                  <parmname>XML:</parmname>
+                  <codeph>&lt;result message="FAIL, skin name cannot start with a &amp;quot;.&amp;quot;" messageKey="FAIL, skin name cannot start with a &amp;quot;.&amp;quot;" status="FAIL" statusCode="1350" /&gt;</codeph>
+               </li>
+               <li>
+                  <parmname>JSON:</parmname>
+                  <codeph>{"statusCode":1350,"messageKey":"FAIL, skin name cannot start with a "."", "message":"FAIL, skin name cannot start with a "."", "status":"FAIL", "info":[]} </codeph>
+               </li>
+            </ul>
+         </p>
+      </section>
+      <section>
+         <title>Permissions</title>
+         <p>"Develop application"</p>
+      </section>
+      <section>
+         <title>Example</title>
+         <p>
+            <b>Request:</b>
+         </p>
+         <p>
+            <b>POST</b> 
+            <codeph>http://example.corp:8080/LiveContent/v2/skin/{name}</codeph>
+         </p>
+         <p>
+            <b>Response:</b>
+         </p>
+         <p>
+            <codeph>&lt;result message="Action = add_skin" messageKey="Action = add_skin" status="SUCCESS" statusCode="0"&gt;&lt;info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="apiInfoModel" name="skin" value="testskin"/&gt;&lt;/result&gt;</codeph>
+         </p>
+      </section>
+   </refbody>
+</reference>

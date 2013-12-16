@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference outputclass="NewPage" id="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8008">
+<title>Delete Publication</title>
+<shortdesc>Deletes the specified publication.</shortdesc>
+<refbody>
+<section>
+<p>Deletes the publication configuration and related resources. Also deletes related comments unless the query parameter is delete_forms=false. Request fails publication or any of its languages are visible.</p>
+</section>
+<section>
+<title>Request</title>
+<p>
+<parmname>URI: </parmname>
+<codeph>/v2/content/{pub}?delete_forms={delete_forms}</codeph>
+</p>
+<p>
+<parmname>HTTP Method: </parmname>DELETE</p>
+<p>
+<b>Header params:</b>
+<ul>
+<li>
+<parmname>Accept: </parmname>
+<codeph>[application/json] OR [application/xml]</codeph>
+</li>
+</ul>
+</p>
+<p>
+<parmname>PATH Parameter(s):</parmname>
+<ul>
+<li>
+<b>pub: </b>publication ID</li>
+</ul>
+</p>
+<p>
+<parmname>Query Parameter(s):</parmname>
+<ul>
+<li>
+<b>delete_forms: </b>could be "true"(by default) or "false". Specifies whether to delete related comments for the publication.</li>
+</ul>
+</p>
+</section>
+<section>
+<title>Response</title>
+<p>
+<b>Success</b>
+<ul>
+<li>
+<parmname>XML:</parmname>
+<codeph>&lt;result message="Action = delete publication" messageKey="Action = delete publication" status="SUCCESS" statusCode="0"&gt; &lt;info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="apiInfoModel" name="Deleted objects" value="1"/&gt; &lt;/result&gt;</codeph>
+</li>
+<li>
+<parmname>JSON:</parmname>
+<codeph>{"statusCode":0, "messageKey":"Action = delete publication", "message":"Action = delete publication", "status":"SUCCESS", "info":[{"name":"Deleted objects", "value":"1"}]}</codeph>
+</li>
+</ul>
+</p>
+<p>
+<b>Failed</b>
+<ul>
+<li>
+<parmname>XML:</parmname>
+<codeph>&lt;result message="The requested publication or language version does not exist." messageKey="pubs.nonexist" status="FAIL" statusCode="404"/&gt;</codeph>
+</li>
+<li>
+<parmname>JSON:</parmname>
+<codeph>{"statusCode":404,"messageKey":"pubs.nonexist", "message":"The requested publication or language version does not exist.", "status":"FAIL", "info":[]}</codeph>
+</li>
+</ul>
+</p>
+</section>
+<section>
+<title>Permissions</title>
+<p>"Manage publications"</p>
+</section>
+<section>
+<title>Example</title>
+<p>
+<b>Request:</b>
+</p>
+<p>
+<b>DELETE</b> <codeph>http://example.corp:8080/LiveContent/v2/content/content/LiveContentDoc?delete_forms=true</codeph>
+</p> <p>
+<b>Accept:</b> <codeph>application/xml</codeph>
+</p>
+<p>
+<b>Response:</b>
+</p>
+<p>
+<codeph>&lt;result message="Action = delete publication" messageKey="Action = delete publication" status="SUCCESS" statusCode="0"/&gt;</codeph>
+</p>
+</section>
+</refbody>
+</reference>

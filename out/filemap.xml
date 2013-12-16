@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<filemap sourcebasepath="C:\Dev\Atmel\RestAPIJavaDocGenerator\DocOut" dita2trisoft="10.1.0.0">
+  <file id="GUID-DB8DAD66-2028-41F9-9684-2BD525A82ADD" targetfolder="ImportTest" title="Fetch Global Configuration" filetype="ISHModule" filepath="Fetch-Global-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8001=1=en-us=.xml" filename="Fetch-Global-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8001=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-DB8DAD66-2028-41F9-9684-2BD525A82ADD" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Fetch Global Configuration</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-A4C862AA-A530-4E68-B7E9-F92679CD954A" targetfolder="ImportTest" title="Create Skin" filetype="ISHModule" filepath="Create-Skin=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF801D=1=en-us=.xml" filename="Create-Skin=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF801D=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-A4C862AA-A530-4E68-B7E9-F92679CD954A" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Create Skin</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-08F6FE02-9B62-4F33-9538-3864C2F8E980" targetfolder="ImportTest" title="Fetch an audit" filetype="ISHModule" filepath="Fetch-an-audit=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8002=1=en-us=.xml" filename="Fetch-an-audit=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8002=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-08F6FE02-9B62-4F33-9538-3864C2F8E980" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Fetch an audit</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-7CB85C5C-2CFD-441E-B6DF-3B21D091FF50" targetfolder="ImportTest" title="XForms - User Generated Content V2" filetype="ISHModule" filepath="XForms---User-Generated-Content-V2=GUID-2E323793-5327-4F9D-9435-CD23BE487091=1=en-us=.xml" filename="XForms---User-Generated-Content-V2=GUID-2E323793-5327-4F9D-9435-CD23BE487091=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-7CB85C5C-2CFD-441E-B6DF-3B21D091FF50" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">XForms - User Generated Content V2</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-08E5831A-2D6B-4F65-A704-BEC77E3BC2A9" targetfolder="ImportTest" title="Create or Update a Global Configuration Item" filetype="ISHModule" filepath="Create-or-Update-a-Global-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8003=1=en-us=.xml" filename="Create-or-Update-a-Global-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8003=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-08E5831A-2D6B-4F65-A704-BEC77E3BC2A9" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Create or Update a Global Configuration Item</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-2B250C51-D9E7-4855-9320-544E458F68E6" targetfolder="ImportTest" title="Create a Standard" filetype="ISHModule" filepath="Create-a-Standard=GUID-AAA95141-0000-013F-A0E7-2C91FFFF8002=1=en-us=.xml" filename="Create-a-Standard=GUID-AAA95141-0000-013F-A0E7-2C91FFFF8002=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-2B250C51-D9E7-4855-9320-544E458F68E6" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Create a Standard</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-D9B5A2EF-27C8-4F33-9D68-B3441ED5C565" targetfolder="ImportTest" title="Create or Update Publication Configuration Item" filetype="ISHModule" filepath="Create-or-Update-Publication-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8012=1=en-us=.xml" filename="Create-or-Update-Publication-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8012=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-D9B5A2EF-27C8-4F33-9D68-B3441ED5C565" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Create or Update Publication Configuration Item</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-77956ABB-496E-413F-AF81-6E349CA6DEE9" targetfolder="ImportTest" title="Fetch Skins" filetype="ISHModule" filepath="Fetch-Skins=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF801C=1=en-us=.xml" filename="Fetch-Skins=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF801C=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-77956ABB-496E-413F-AF81-6E349CA6DEE9" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Fetch Skins</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-7B0AC8B1-263C-497A-A08D-4CB161C2B529" targetfolder="ImportTest" title="Fetch a Global Configuration Item" filetype="ISHModule" filepath="Fetch-a-Global-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8002=1=en-us=.xml" filename="Fetch-a-Global-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8002=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-7B0AC8B1-263C-497A-A08D-4CB161C2B529" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Fetch a Global Configuration Item</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-19AE51BE-477D-4F14-BDC5-7C06D6416402" targetfolder="ImportTest" title="Create or Update Language Configuration Item" filetype="ISHModule" filepath="Create-or-Update-Language-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8013=1=en-us=.xml" filename="Create-or-Update-Language-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8013=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-19AE51BE-477D-4F14-BDC5-7C06D6416402" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Create or Update Language Configuration Item</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-31EBF072-2E43-448A-B412-E44F50FBB33C" targetfolder="ImportTest" title="Fetch Publications Configuration" filetype="ISHModule" filepath="Fetch-Publications-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800C=1=en-us=.xml" filename="Fetch-Publications-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800C=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-31EBF072-2E43-448A-B412-E44F50FBB33C" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Fetch Publications Configuration</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-D28751EE-488A-44F3-81FC-83BB53BBB70E" targetfolder="ImportTest" title="Fetch Language Configuration" filetype="ISHModule" filepath="Fetch-Language-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800F=1=en-us=.xml" filename="Fetch-Language-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800F=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-D28751EE-488A-44F3-81FC-83BB53BBB70E" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Fetch Language Configuration</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-CB1251B7-195C-46DF-A3E3-3F309EF71CD8" targetfolder="ImportTest" title="Fetch Audits" filetype="ISHModule" filepath="Fetch-Audits=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8003=1=en-us=.xml" filename="Fetch-Audits=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8003=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-CB1251B7-195C-46DF-A3E3-3F309EF71CD8" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Fetch Audits</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-EB873681-8D74-4AB2-9F62-CD6C35F52A86" targetfolder="ImportTest" title="Create Publication" filetype="ISHModule" filepath="Create-Publication=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8009=1=en-us=.xml" filename="Create-Publication=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8009=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-EB873681-8D74-4AB2-9F62-CD6C35F52A86" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Create Publication</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-8AD64705-348A-4551-88DF-4D4F51800A5C" targetfolder="ImportTest" title="Fetch an XForm Template Configuration" filetype="ISHModule" filepath="Fetch-an-XForm-Template-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8021=1=en-us=.xml" filename="Fetch-an-XForm-Template-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8021=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-8AD64705-348A-4551-88DF-4D4F51800A5C" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Fetch an XForm Template Configuration</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-2E932B73-6231-47E7-992A-90142B66E984" targetfolder="ImportTest" title="Delete a Global Configuration Item" filetype="ISHModule" filepath="Delete-a-Global-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8004=1=en-us=.xml" filename="Delete-a-Global-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8004=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-2E932B73-6231-47E7-992A-90142B66E984" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Delete a Global Configuration Item</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-FEC6AA31-B90B-4D2D-B3FB-2566D720260C" targetfolder="ImportTest" title="Fetch XForm Template Configurations" filetype="ISHModule" filepath="Fetch-XForm-Template-Configurations=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8020=1=en-us=.xml" filename="Fetch-XForm-Template-Configurations=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8020=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-FEC6AA31-B90B-4D2D-B3FB-2566D720260C" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Fetch XForm Template Configurations</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-93CA6DC0-E498-432F-A9D3-8CE9CC9DB924" targetfolder="ImportTest" title="Fetch Publication Configuration" filetype="ISHModule" filepath="Fetch-Publication-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8007=1=en-us=.xml" filename="Fetch-Publication-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8007=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-93CA6DC0-E498-432F-A9D3-8CE9CC9DB924" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Fetch Publication Configuration</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-A98E22A0-01B5-404E-A77C-8FCAE7B4DAA8" targetfolder="ImportTest" title="Fetch Language Configuration Item" filetype="ISHModule" filepath="Fetch-Language-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800E=1=en-us=.xml" filename="Fetch-Language-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800E=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-A98E22A0-01B5-404E-A77C-8FCAE7B4DAA8" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Fetch Language Configuration Item</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-6F8D9E98-A399-4DC2-931F-38397AB38789" targetfolder="ImportTest" title="Delete Publication Configuration Item" filetype="ISHModule" filepath="Delete-Publication-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8010=1=en-us=.xml" filename="Delete-Publication-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8010=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-6F8D9E98-A399-4DC2-931F-38397AB38789" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Delete Publication Configuration Item</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-71AAD729-97DD-4A75-8FC2-D6D6183E4F30" targetfolder="ImportTest" title="Search Index Management V2" filetype="ISHModule" filepath="Search-Index-Management-V2=GUID-D4FFAE43-88A5-4531-A56B-422EC6FC77E5=1=en-us=.xml" filename="Search-Index-Management-V2=GUID-D4FFAE43-88A5-4531-A56B-422EC6FC77E5=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-71AAD729-97DD-4A75-8FC2-D6D6183E4F30" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Search Index Management V2</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-3DF90AB3-646E-4431-9356-8820F89C90A6" targetfolder="ImportTest" title="Delete Language Configuration Item" filetype="ISHModule" filepath="Delete-Language-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8011=1=en-us=.xml" filename="Delete-Language-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8011=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-3DF90AB3-646E-4431-9356-8820F89C90A6" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Delete Language Configuration Item</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-92F11B14-A309-47D5-9FF5-5E5E93384237" targetfolder="ImportTest" title="Delete Sitemaps" filetype="ISHModule" filepath="Delete-Sitemaps=GUID-96237A49-0000-0140-1296-F0B7FFFF8003=1=en-us=.xml" filename="Delete-Sitemaps=GUID-96237A49-0000-0140-1296-F0B7FFFF8003=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-92F11B14-A309-47D5-9FF5-5E5E93384237" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Delete Sitemaps</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-A32884BF-BCA7-4D15-8354-3F58057D70E5" targetfolder="ImportTest" title="Create an Audit" filetype="ISHModule" filepath="Create-an-Audit=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8004=1=en-us=.xml" filename="Create-an-Audit=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8004=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-A32884BF-BCA7-4D15-8354-3F58057D70E5" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Create an Audit</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-9523E6F9-9DDF-488C-9888-62A43DAC8E3F" targetfolder="ImportTest" title="Skin Management V2" filetype="ISHModule" filepath="Skin-Management-V2=GUID-1C58971C-F055-40E8-A0A0-498F31080B2F=1=en-us=.xml" filename="Skin-Management-V2=GUID-1C58971C-F055-40E8-A0A0-498F31080B2F=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-9523E6F9-9DDF-488C-9888-62A43DAC8E3F" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Skin Management V2</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-FDEE16BD-4EF4-4814-9434-4B79F8BAFB15" targetfolder="ImportTest" title="Fetch Standards" filetype="ISHModule" filepath="Fetch-Standards=GUID-AAA95141-0000-013F-A0E7-2C91FFFF8001=1=en-us=.xml" filename="Fetch-Standards=GUID-AAA95141-0000-013F-A0E7-2C91FFFF8001=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-FDEE16BD-4EF4-4814-9434-4B79F8BAFB15" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Fetch Standards</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-B3307C1E-F1D9-46D4-A7D6-95B92E7CAF4C" targetfolder="ImportTest" title="Create or Update Sitemap" filetype="ISHModule" filepath="Create-or-Update-Sitemap=GUID-96237A49-0000-0140-1296-F0B7FFFF8002=1=en-us=.xml" filename="Create-or-Update-Sitemap=GUID-96237A49-0000-0140-1296-F0B7FFFF8002=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-B3307C1E-F1D9-46D4-A7D6-95B92E7CAF4C" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Create or Update Sitemap</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-4B17616E-A023-446E-9093-76C2EF1174FA" targetfolder="ImportTest" title="Global Configuration V2" filetype="ISHModule" filepath="Global-Configuration-V2=GUID-A779FDAB-D480-4001-ADB3-D4A60214D2F7=1=en-us=.xml" filename="Global-Configuration-V2=GUID-A779FDAB-D480-4001-ADB3-D4A60214D2F7=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-4B17616E-A023-446E-9093-76C2EF1174FA" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Global Configuration V2</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-5143DF4E-7ED8-4DF1-B575-457AFA444B6A" targetfolder="ImportTest" title="Delete Search Index" filetype="ISHModule" filepath="Delete-Search-Index=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF801A=1=en-us=.xml" filename="Delete-Search-Index=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF801A=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-5143DF4E-7ED8-4DF1-B575-457AFA444B6A" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Delete Search Index</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-722A7E1D-B00E-4ECC-AE43-48F65B225A7C" targetfolder="ImportTest" title="Delete an Audit" filetype="ISHModule" filepath="Delete-an-Audit=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8001=1=en-us=.xml" filename="Delete-an-Audit=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8001=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-722A7E1D-B00E-4ECC-AE43-48F65B225A7C" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Delete an Audit</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-81713C9E-7DCB-4DEB-A9E6-152B1D17A447" targetfolder="ImportTest" title="Delete a Standard" filetype="ISHModule" filepath="Delete-a-Standard=GUID-AAA95141-0000-013F-A0E7-2C91FFFF8003=1=en-us=.xml" filename="Delete-a-Standard=GUID-AAA95141-0000-013F-A0E7-2C91FFFF8003=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-81713C9E-7DCB-4DEB-A9E6-152B1D17A447" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Delete a Standard</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-D387EAE9-7C6C-4EDF-8659-224C5724245C" targetfolder="ImportTest" title="Check Publication Visiblity" filetype="ISHModule" filepath="Check-Publication-Visiblity=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8014=1=en-us=.xml" filename="Check-Publication-Visiblity=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8014=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-D387EAE9-7C6C-4EDF-8659-224C5724245C" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Check Publication Visiblity</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-704D65D1-0B2C-4819-A48A-C0EEE1BD1731" targetfolder="ImportTest" title="Delete Language" filetype="ISHModule" filepath="Delete-Language=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800A=1=en-us=.xml" filename="Delete-Language=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800A=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-704D65D1-0B2C-4819-A48A-C0EEE1BD1731" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Delete Language</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-574A25C3-204D-4D69-9CF7-7D4DE7F02A42" targetfolder="ImportTest" title="Publication Management V2" filetype="ISHModule" filepath="Publication-Management-V2=GUID-F262882F-C735-4432-9593-2B0E547A2338=1=en-us=.xml" filename="Publication-Management-V2=GUID-F262882F-C735-4432-9593-2B0E547A2338=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-574A25C3-204D-4D69-9CF7-7D4DE7F02A42" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Publication Management V2</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-D255DAB2-D389-48C7-A7B9-E4D71B63C98A" targetfolder="ImportTest" title="Sitemap Management  V2" filetype="ISHModule" filepath="Sitemap-Management--V2=GUID-96237A49-0000-0140-1296-F0B7FFFF8000=1=en-us=.xml" filename="Sitemap-Management--V2=GUID-96237A49-0000-0140-1296-F0B7FFFF8000=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-D255DAB2-D389-48C7-A7B9-E4D71B63C98A" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Sitemap Management  V2</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-C89FCBD3-226A-40D4-85B9-5E85850CB9BA" targetfolder="ImportTest" title="Fetch a Sitemap" filetype="ISHModule" filepath="Fetch-a-Sitemap=GUID-96237A49-0000-0140-1296-F0B7FFFF8001=1=en-us=.xml" filename="Fetch-a-Sitemap=GUID-96237A49-0000-0140-1296-F0B7FFFF8001=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-C89FCBD3-226A-40D4-85B9-5E85850CB9BA" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Fetch a Sitemap</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-E54EB9F2-6DC2-42E8-858D-DDF2AF750FAE" targetfolder="ImportTest" title="Check Language Existence" filetype="ISHModule" filepath="Check-Language-Existence=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8016=1=en-us=.xml" filename="Check-Language-Existence=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8016=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-E54EB9F2-6DC2-42E8-858D-DDF2AF750FAE" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Check Language Existence</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-0473D70E-BC20-40AB-BBD7-5D25E8700ACC" targetfolder="ImportTest" title="Create Language" filetype="ISHModule" filepath="Create-Language=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800B=1=en-us=.xml" filename="Create-Language=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800B=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-0473D70E-BC20-40AB-BBD7-5D25E8700ACC" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Create Language</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-53B05814-8D78-449E-8222-429B1D95F494" targetfolder="ImportTest" title="Delete an XForm Template Configuration" filetype="ISHModule" filepath="Delete-an-XForm-Template-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8023=1=en-us=.xml" filename="Delete-an-XForm-Template-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8023=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-53B05814-8D78-449E-8222-429B1D95F494" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Delete an XForm Template Configuration</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-1D335F3B-A45B-4DEF-AD93-FA41541C33A6" targetfolder="ImportTest" title="Standards Configuration V2" filetype="ISHModule" filepath="Standards-Configuration-V2=GUID-AAA95141-0000-013F-A0E7-2C91FFFF8000=1=en-us=.xml" filename="Standards-Configuration-V2=GUID-AAA95141-0000-013F-A0E7-2C91FFFF8000=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-1D335F3B-A45B-4DEF-AD93-FA41541C33A6" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Standards Configuration V2</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-DE953D61-E2F5-45A5-9EA4-FC03EA94DA9C" targetfolder="ImportTest" title="Fetch Publication Configuration Item" filetype="ISHModule" filepath="Fetch-Publication-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800D=1=en-us=.xml" filename="Fetch-Publication-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800D=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-DE953D61-E2F5-45A5-9EA4-FC03EA94DA9C" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Fetch Publication Configuration Item</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-84A2ADF1-A90E-479A-B603-4732F7047DFA" targetfolder="ImportTest" title="Audit Trail Management V2" filetype="ISHModule" filepath="Audit-Trail-Management-V2=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8000=1=en-us=.xml" filename="Audit-Trail-Management-V2=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8000=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-84A2ADF1-A90E-479A-B603-4732F7047DFA" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Audit Trail Management V2</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-AD2AE4B8-3E34-4613-BBFB-1AF92A1E5CDC" targetfolder="ImportTest" title="Validate Language Code" filetype="ISHModule" filepath="Validate-Language-Code=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8006=1=en-us=.xml" filename="Validate-Language-Code=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8006=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-AD2AE4B8-3E34-4613-BBFB-1AF92A1E5CDC" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Validate Language Code</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-98967561-F219-4983-92F5-68B48370DB25" targetfolder="ImportTest" title="Delete Publication" filetype="ISHModule" filepath="Delete-Publication=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8008=1=en-us=.xml" filename="Delete-Publication=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8008=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-98967561-F219-4983-92F5-68B48370DB25" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Delete Publication</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-41EE18A2-D508-4162-A6E3-04BBF4BBDE29" targetfolder="ImportTest" title="Delete Skin" filetype="ISHModule" filepath="Delete-Skin=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF801E=1=en-us=.xml" filename="Delete-Skin=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF801E=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-41EE18A2-D508-4162-A6E3-04BBF4BBDE29" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Delete Skin</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-95C595A9-3FE7-4FAC-B160-C4B85E7E440F" targetfolder="ImportTest" title="Create Search Index" filetype="ISHModule" filepath="Create-Search-Index=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8019=1=en-us=.xml" filename="Create-Search-Index=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8019=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-95C595A9-3FE7-4FAC-B160-C4B85E7E440F" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Create Search Index</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-BAD3F118-5E83-4CF1-A322-52814ABE1744" targetfolder="ImportTest" title="Create or Update an XForm Template Configuration" filetype="ISHModule" filepath="Create-or-Update-an-XForm-Template-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8022=1=en-us=.xml" filename="Create-or-Update-an-XForm-Template-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8022=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-BAD3F118-5E83-4CF1-A322-52814ABE1744" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Create or Update an XForm Template Configuration</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-AD51DB69-5E2C-4D9C-9412-E550DE3D81A1" targetfolder="ImportTest" title="Create an Event in the Current Audit" filetype="ISHModule" filepath="Create-an-Event-in-the-Current-Audit=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8005=1=en-us=.xml" filename="Create-an-Event-in-the-Current-Audit=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8005=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-AD51DB69-5E2C-4D9C-9412-E550DE3D81A1" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Create an Event in the Current Audit</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-33501478-D6F3-4AD7-B0D7-A088AE605A19" targetfolder="ImportTest" title="Fetch Search Indexes" filetype="ISHModule" filepath="Fetch-Search-Indexes=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8018=1=en-us=.xml" filename="Fetch-Search-Indexes=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8018=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-33501478-D6F3-4AD7-B0D7-A088AE605A19" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Fetch Search Indexes</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+  <file id="GUID-A421BEE9-BC30-47DD-BB5D-5FBE4CCC1E82" targetfolder="ImportTest" title="Check Publication Existence" filetype="ISHModule" filepath="Check-Publication-Existence=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8015=1=en-us=.xml" filename="Check-Publication-Existence=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8015=1=en-us=.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-A421BEE9-BC30-47DD-BB5D-5FBE4CCC1E82" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">Check Publication Existence</ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+</filemap>

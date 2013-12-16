@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference outputclass="NewPage" id="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8010">
+<title>Delete Publication Configuration Item</title>
+<shortdesc>Deletes the requested configuration item for the specified publication.</shortdesc>
+<refbody>
+<section>
+<p>The request will fail and return the 301 result model if any of the protected items are requested to be deleted: {"visible", "standard", "default_language"}</p>
+</section>
+<section>
+<title>Request</title>
+<p>
+<parmname>URI: </parmname>
+<codeph>/v2/content/{pub}/config/{item_name}</codeph>
+</p>
+<p>
+<parmname>HTTP Method: </parmname>DELETE</p>
+<p>
+<b>Header params:</b>
+<ul>
+<li>
+<parmname>Accept: </parmname>
+<codeph>[application/json] OR [application/xml]</codeph>
+</li>
+</ul>
+</p>
+<p>
+<parmname>PATH Parameter(s):</parmname>
+<ul>
+<li>
+<b>pub: </b>publication ID</li>
+<li>
+<b>item_name: </b>publication item name</li>
+</ul>
+</p>
+</section>
+<section>
+<title>Response</title>
+<p>
+<b>Success</b>
+<ul>
+<li>
+<parmname>XML:</parmname>
+<codeph>&lt;result message="Action = delete config item" messageKey="Action = delete config item" status="SUCCESS" statusCode="0"/&gt;</codeph>
+</li>
+<li>
+<parmname>JSON:</parmname>
+<codeph>{"statusCode":0, "messageKey":"Action = delete config item", "message":"Action = delete config item", "status":"SUCCESS", "info":[]}</codeph>
+</li>
+</ul>
+</p>
+<p>
+<b>Failed</b>
+<ul>
+<li>
+<parmname>XML:</parmname>
+<codeph>&lt;result message="Failed, Action delete config item" messageKey="Failed, Action delete config item" status="FAIL" statusCode="404"/&gt;</codeph>
+</li>
+<li>
+<parmname>JSON:</parmname>
+<codeph>{"statusCode":404, "messageKey":"Failed, Action delete config item", "message":"Failed, Action delete config item", "status":"FAIL", "info":[]}</codeph>
+</li>
+</ul>
+</p>
+</section>
+<section>
+<title>Permissions</title>
+<p>"Manage publications"</p>
+</section>
+<section>
+<title>Example</title>
+<p>
+<b>Request:</b>
+</p>
+<p>
+<b>DELETE</b> <codeph>http://example.corp:8080/LiveContent/v2/content/content/LiveContentDoc/shortdesc</codeph>
+</p> <p>
+<b>Accept:</b> <codeph>application/xml</codeph>
+</p>
+<p>
+<b>Response:</b>
+</p>
+<p>
+<codeph>&lt;result message="Action = delete config item" messageKey="Action = delete config item" status="SUCCESS" statusCode="0"/&gt;</codeph>
+</p>
+</section>
+</refbody>
+</reference>

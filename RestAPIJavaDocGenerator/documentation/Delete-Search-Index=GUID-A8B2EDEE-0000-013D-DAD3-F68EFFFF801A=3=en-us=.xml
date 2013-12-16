@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference outputclass="NewPage" id="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF801A">
+   <title>Delete Search Index</title>
+   <shortdesc>Deletes a search index from an indexes element.</shortdesc>
+   <refbody>
+      <section>
+         <p>Deleting a search index does not force a reindex of the database; therefore, after deleting a search index it is important to reindex the database.</p>
+      </section>
+      <section>
+         <title>Request</title>
+         <p>
+            <parmname>URI: </parmname>
+            <codeph>/v2/searchindex/{name}</codeph>
+         </p>
+         <p>
+            <parmname>HTTP Method: </parmname>DELETE</p>
+         <p>
+            <b>Header params:</b>
+            <ul>
+               <li>
+                  <parmname>Accept: </parmname>
+                  <codeph>[application/json] OR [application/xml]</codeph>
+               </li>
+               <li>
+                  <parmname>Content-Type: </parmname>
+                  <codeph>[application/json] OR [application/xml]</codeph>
+               </li>
+            </ul>
+         </p>
+         <p>
+            <parmname>PATH Parameter(s):</parmname>
+            <ul>
+               <li>
+                  <b>name: </b> The name of the index item to delete.</li>
+            </ul>
+         </p>
+      </section>
+      <section>
+         <title>Response</title>
+         <p>
+            <b>Success</b>
+            <ul>
+               <li>
+                  <parmname>XML:</parmname>
+                  <codeph>&lt;result message="Action = delete_index" messageKey="Action = delete_index" status="SUCCESS" statusCode="0" /&gt; </codeph>
+               </li>
+               <li>
+                  <parmname>JSON:</parmname>
+                  <codeph>{"statusCode":0,"messageKey":"Action = delete_index", "message":"Action = delete_index", "status":"SUCCESS", "info":[]} </codeph>
+               </li>
+            </ul>
+         </p>
+         <p>
+            <b>Failed</b>
+            <ul>
+               <li>
+                  <parmname>XML:</parmname>
+                  <codeph>&lt;result message="Not Found" messageKey="Not Found" status="FAIL" statusCode="404" /&gt; </codeph>
+               </li>
+               <li>
+                  <parmname>JSON:</parmname>
+                  <codeph>{"statusCode":404,"messageKey":"Not Found", "message":"Not Found", "status":"FAIL", "info":[]} </codeph>
+               </li>
+            </ul>
+         </p>
+      </section>
+      <section>
+         <title>Permissions</title>
+         <p>"Manage application"</p>
+      </section>
+      <section>
+         <title>Example</title>
+         <p>
+            <b>Request:</b>
+         </p>
+         <p>
+            <b>DELETE</b> 
+            <codeph>http://example.corp:8080/LiveContent/v2/searchindex/exampleID</codeph>
+         </p>
+         <p>
+            <b>Response:</b>
+         </p>
+         <p>
+            <codeph>&lt;result message="Action = delete_index" messageKey="Action = delete_index" status="SUCCESS" statusCode="0" /&gt; </codeph>
+         </p>
+      </section>
+   </refbody>
+</reference>

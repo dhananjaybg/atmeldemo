@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference outputclass="NewPage" id="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800C">
+   <title>Fetch Publications Configuration</title>
+   <shortdesc>Fetches a list of Publication Configurations.</shortdesc>
+   <refbody>
+      <section>
+         <p>Configurations for hidden publications and languages will not appear if the user does not have a permission to access hidden publications.</p>
+      </section>
+      <section>
+         <title>Request</title>
+         <p>
+            <parmname>URI: </parmname>
+            <codeph>/v2/content/config</codeph>
+         </p>
+         <p>
+            <parmname>HTTP Method: </parmname>GET</p>
+         <p>
+            <b>Header params:</b>
+            <ul>
+               <li>
+                  <parmname>Accept: </parmname>
+                  <codeph>[application/json] OR [application/xml]</codeph>
+               </li>
+            </ul>
+         </p>
+      </section>
+      <section>
+         <title>Response</title>
+         <p>
+            <b>Success</b>
+            <ul>
+               <li>
+                  <parmname>XML:</parmname>
+                  <codeph>&lt;configuration&gt; &lt;pub id="LiveContentDoc"&gt; &lt;lang code="en"&gt; &lt;configitem name="title" value="SDL LiveContent Reach Documentation"&gt;&lt;/configitem&gt; &lt;configitem name="toc" value="GUID-FEC8FA08-E122-46F2-81CC-2B839CCFEE6C"&gt;&lt;/configitem&gt; &lt;configitem name="visible" value="visible"&gt;&lt;/configitem&gt; &lt;/lang&gt; &lt;configitem name="standard" value="DITA"&gt;&lt;/configitem&gt; &lt;configitem name="visible" value="visible"&gt;&lt;/configitem&gt; &lt;configitem name="default_language" value="en"&gt;&lt;/configitem&gt; &lt;/pub&gt; &lt;/configuration&gt;</codeph>
+               </li>
+               <li>
+                  <parmname>JSON:</parmname>
+                  <codeph>{"pub":[{"id":"LiveContentDoc", "visible":true, "lang":[{"code":"en", "visible":true, "configitem":[{"name":"title", "value":"SDL LiveContent Reach Documentation"}, {"name":"toc", "value":"GUID-FEC8FA08-E122-46F2-81CC-2B839CCFEE6C"}, {"name":"visible", "value":"visible"},{"name":"test", "value":"post test"}, {"name":"shortdesc", "value":""},{"name":"prepared", "value":"prepared"}, {"name":"working_status", "value":"unlocked"},{"name":"filter.file", "value":""}, {"name":"filter.file.empty", "value":"1"}]}], "configitem":[{"name":"standard", "value":"DITA"}, {"name":"visible", "value":"visible"}, {"name":"default_language", "value":"en"}]}]}</codeph>
+               </li>
+            </ul>
+         </p>
+         <p>
+            <b>Failed</b>
+            <ul>
+               <li>
+                  <parmname>XML:</parmname>
+                  <codeph>&lt;result message="Your account does not have the required permission to perform this action." messageKey="unauthorized.noauth" status="FAIL" statusCode="5000"/&gt;</codeph>
+               </li>
+               <li>
+                  <parmname>JSON:</parmname>
+                  <codeph>{"statusCode":5000, "messageKey":"unauthorized.noauth", "message":"Your account does not have the required permission to perform this action.", "status":"FAIL", "info":[]}</codeph>
+               </li>
+            </ul>
+         </p>
+      </section>
+      <section>
+         <title>Permissions</title>
+         <p>"Use application"</p>
+      </section>
+      <section>
+         <title>Example</title>
+         <p>
+            <b>Request:</b>
+         </p>
+         <p>
+            <b>GET</b> 
+            <codeph>http://example.corp:8080/LiveContent/v2/content/config</codeph>
+         </p> 
+         <p>
+            <b>Accept:</b> 
+            <codeph>application/xml</codeph>
+         </p>
+         <p>
+            <b>Response:</b>
+         </p>
+         <p>
+            <codeph>&lt;configuration&gt; &lt;pub id="LiveContentDoc"&gt; &lt;lang code="en"&gt; &lt;configitem name="title" value="SDL LiveContent Reach Documentation"&gt;&lt;/configitem&gt; &lt;configitem name="toc" value="GUID-FEC8FA08-E122-46F2-81CC-2B839CCFEE6C"&gt;&lt;/configitem&gt; &lt;configitem name="visible" value="visible"&gt;&lt;/configitem&gt; &lt;configitem name="test" value="post test"&gt;&lt;/configitem&gt; &lt;configitem name="shortdesc" value=""&gt;&lt;/configitem&gt; &lt;configitem name="prepared" value="prepared"&gt;&lt;/configitem&gt; &lt;configitem name="working_status" value="unlocked"&gt;&lt;/configitem&gt; &lt;configitem name="filter.file" value=""&gt;&lt;/configitem&gt; &lt;configitem name="filter.file.empty" value="1"&gt;&lt;/configitem&gt; &lt;/lang&gt; &lt;configitem name="standard" value="DITA"&gt;&lt;/configitem&gt; &lt;configitem name="visible" value="visible"&gt;&lt;/configitem&gt; &lt;configitem name="default_language" value="en"&gt;&lt;/configitem&gt; &lt;/pub&gt; &lt;pub id="DITA_Sample"&gt; &lt;lang code="en-US"&gt; &lt;configitem name="draft" value="no"&gt;&lt;/configitem&gt; &lt;configitem name="title" value="SDL LiveContent Sample Publication"&gt;&lt;/configitem&gt; &lt;configitem name="toc" value="sample.ditamap"&gt;&lt;/configitem&gt; &lt;configitem name="visible" value="visible"&gt;&lt;/configitem&gt; &lt;configitem name="shortdesc" value="This sample illustrates many of the features of LiveContent."&gt;&lt;/configitem&gt; &lt;configitem name="prepared" value="prepared"&gt;&lt;/configitem&gt; &lt;configitem name="working_status" value="unlocked"&gt;&lt;/configitem&gt; &lt;configitem name="filter.file" value=""&gt;&lt;/configitem&gt; &lt;configitem name="filter.file.empty" value="1"&gt;&lt;/configitem&gt; &lt;/lang&gt; &lt;configitem name="standard" value="DITA"&gt;&lt;/configitem&gt; &lt;configitem name="visible" value="visible"&gt;&lt;/configitem&gt; &lt;configitem name="default_language" value="en-US"&gt;&lt;/configitem&gt; &lt;/pub&gt; &lt;/configuration&gt;</codeph>
+         </p>
+      </section>
+   </refbody>
+</reference>

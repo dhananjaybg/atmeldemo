@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference outputclass="NewPage" id="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8016">
+   <title>Check Language Existence</title>
+   <shortdesc>Ensures that the specified language exists.</shortdesc>
+   <refbody>
+      <section>
+         <p>Request will fail and return the 404 result model if the publication configuration does not exist, or if the publication or language is hidden and the user does not have permission to access hidden publications.</p>
+      </section>
+      <section>
+         <title>Request</title>
+         <p>
+            <parmname>URI: </parmname>
+            <codeph>/v2/content/{pub}/{lang}/ifexist</codeph>
+         </p>
+         <p>
+            <parmname>HTTP Method: </parmname>GET</p>
+         <p>
+            <b>Header params:</b>
+            <ul>
+               <li>
+                  <parmname>Accept: </parmname>
+                  <codeph>[application/json] OR [application/xml]</codeph>
+               </li>
+            </ul>
+         </p>
+         <p>
+            <parmname>PATH Parameter(s):</parmname>
+            <ul>
+               <li>
+                  <b>pub: </b>publication ID</li>
+               <li>
+                  <b>lang: </b>publication language</li>
+            </ul>
+         </p>
+      </section>
+      <section>
+         <title>Response</title>
+         <p>
+            <b>Success</b>
+            <ul>
+               <li>
+                  <parmname>XML:</parmname>
+                  <codeph>&lt;result message="Publication Exists" messageKey="Publication Exists" status="SUCCESS" statusCode="0"&gt; &lt;info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="apiInfoModel" name="timestamp" value="2013-04-02T17:55:29.239-04:00"&gt;&lt;/info&gt; &lt;/result&gt;</codeph>
+               </li>
+               <li>
+                  <parmname>JSON:</parmname>
+                  <codeph>{"statusCode":0,"messageKey":"Publication Exists", "message":"Publication Exists", "status":"SUCCESS", "info":[{"name":"timestamp", "value":"2013-04-02T17:55:29.239-04:00"}]}</codeph>
+               </li>
+            </ul>
+         </p>
+         <p>
+            <b>Failed</b>
+            <ul>
+               <li>
+                  <parmname>XML:</parmname>
+                  <codeph>&lt;result message="The requested publication or language version does not exist." messageKey="pubs.nonexist" status="FAIL" statusCode="404"/&gt;</codeph>
+               </li>
+               <li>
+                  <parmname>JSON:</parmname>
+                  <codeph>{"statusCode":404,"messageKey":"pubs.nonexist", "message":"The requested publication or language version does not exist.", "status":"FAIL", "info":[]}</codeph>
+               </li>
+            </ul>
+         </p>
+      </section>
+      <section>
+         <title>Permissions</title>
+         <p>"Use application"</p>
+      </section>
+      <section>
+         <title>Example</title>
+         <p>
+            <b>Request:</b>
+         </p>
+         <p>
+            <b>GET</b> 
+            <codeph>http://example.corp:8080/LiveContent/v2/content/LiveContentDoc/en/ifexist</codeph>
+         </p> 
+         <p>
+            <b>Accept:</b> 
+            <codeph>application/xml</codeph>
+         </p>
+         <p>
+            <b>Response:</b>
+         </p>
+         <p>
+            <codeph>&lt;result message="Publication Exists" messageKey="Publication Exists" status="SUCCESS" statusCode="0"&gt; &lt;info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="apiInfoModel" name="timestamp" value="2013-04-02T17:55:29.239-04:00"&gt;&lt;/info&gt; &lt;/result&gt;</codeph>
+         </p>
+      </section>
+   </refbody>
+</reference>

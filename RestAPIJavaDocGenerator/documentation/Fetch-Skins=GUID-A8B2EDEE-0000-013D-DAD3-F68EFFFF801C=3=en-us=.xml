@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference outputclass="NewPage" id="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF801C">
+   <title>Fetch Skins</title>
+   <shortdesc>Fetch Skins</shortdesc>
+   <refbody>
+      <section>
+         <title>Request</title>
+         <p>
+            <parmname>URI: </parmname>
+            <codeph>v2/skin</codeph>
+         </p>
+         <p>
+            <parmname>HTTP Method: </parmname>GET</p>
+         <p>
+            <b>Header params:</b>
+            <ul>
+               <li>
+                  <parmname>Content-Type: </parmname>
+                  <codeph>[application/json] OR [application/xml]</codeph>
+               </li>
+            </ul>
+         </p>
+      </section>
+      <section>
+         <title>Response</title>
+         <p>
+            <b>Success</b>
+            <ul>
+               <li>
+                  <parmname>XML:</parmname>
+                  <codeph>&lt;result message="Action = getSkin" messageKey="Action = getSkin" status="SUCCESS" statusCode="0"&gt;&lt;info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="apiInfoModel" name="skin" value="43684"/&gt;&lt;info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="apiInfoModel" name="skin" value="base"/&gt;&lt;info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="apiInfoModel" name="skin" value="Example"/&gt;&lt;info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="apiInfoModel" name="skin" value="config"/&gt;&lt;/result&gt;</codeph>
+               </li>
+               <li>
+                  <parmname>JSON:</parmname>
+                  <codeph>{"statusCode":0,"messageKey":"Action = getSkin", "message":"Action = getSkin", "status":"SUCCESS", "info":[{"name":"skin", "value":"43684"},{"name":"skin", "value":"base"},{"name":"skin", "value":"Example"},{"name":"skin", "value":"config"}]}}</codeph>
+               </li>
+            </ul>
+         </p>
+         <p>
+            <b>Failed</b>
+            <ul>
+               <li>
+                  <parmname>XML:</parmname>
+                  <codeph>&lt;result message="Not Found" messageKey="Not Found" status="FAIL" statusCode="404" /&gt; </codeph>
+               </li>
+               <li>
+                  <parmname>JSON:</parmname>
+                  <codeph>{"statusCode":404,"messageKey":"Not Found", "message":"Not Found", "status":"FAIL", "info":[]} </codeph>
+               </li>
+            </ul>
+         </p>
+      </section>
+      <section>
+         <title>Permissions</title>
+         <p>"Develop application"</p>
+      </section>
+      <section>
+         <title>Example</title>
+         <p>
+            <b>Request:</b>
+         </p>
+         <p>
+            <b>GET</b> 
+            <codeph>http://example.corp:8080/LiveContent/v2/skin</codeph>
+         </p>
+         <p>
+            <b>Response:</b>
+         </p>
+         <p>
+            <codeph>&lt;result message="Action = getSkin" messageKey="Action = getSkin" status="SUCCESS" statusCode="0"&gt;&lt;info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="apiInfoModel" name="skin" value="43684"/&gt;&lt;info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="apiInfoModel" name="skin" value="base"/&gt;&lt;info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="apiInfoModel" name="skin" value="Example"/&gt;&lt;info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="apiInfoModel" name="skin" value="config"/&gt;&lt;/result&gt;</codeph>
+         </p>
+      </section>
+   </refbody>
+</reference>

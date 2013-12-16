@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="GUID-F262882F-C735-4432-9593-2B0E547A2338">
+   <title>Publication Management V2</title>
+   <shortdesc>Resources to create, manage, and display publications.</shortdesc>
+   <refbody>
+      <section>
+         <p>
+            <table>
+               <tgroup cols="6">
+                  <colspec colnum="1" colname="col1" colwidth="*"/>
+                  <colspec colnum="2" colname="col2" colwidth="*"/>
+                  <colspec colnum="3" colname="col3" colwidth="*"/>
+                  <colspec colnum="4" colname="col4" colwidth="*"/>
+                  <colspec colnum="5" colname="col5" colwidth="*"/>
+                  <colspec colnum="6" colname="col6" colwidth="*"/>
+                  <thead>
+                     <row>
+                        <entry colname="col1"> API Call </entry>
+                        <entry colname="col2"> HTTP Method </entry>
+                        <entry colname="col3"> URL </entry>
+                        <entry colname="col4"> Format </entry>
+                        <entry colname="col5"> Form Data </entry>
+                        <entry colname="col6"> Permissions </entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry colname="col1">
+                           <xref format="dita" scope="local" type="reference"
+                                 href="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8016#GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8016">Check Language Existence</xref>
+                        </entry>
+                        <entry colname="col2">
+                           <codeph>GET</codeph>
+                        </entry>
+                        <entry colname="col3">
+                           <filepath>/v2/content/{pub}/{lang}/ifexist</filepath>
+                        </entry>
+                        <entry colname="col4">
+                           <codeblock>[application/json] OR [application/xml]</codeblock>
+                        </entry>
+                        <entry colname="col5">
+                           <codeblock/>
+                        </entry>
+                        <entry colname="col6">
+                           <uicontrol>"Use application"</uicontrol>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry colname="col1">
+                           <xref format="dita" scope="local" type="reference"
+                                 href="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8015#GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8015">Check Publication Existence</xref>
+                        </entry>
+                        <entry colname="col2">
+                           <codeph>GET</codeph>
+                        </entry>
+                        <entry colname="col3">
+                           <filepath>/v2/content/{pub}/ifexist</filepath>
+                        </entry>
+                        <entry colname="col4">
+                           <codeblock>[application/json] OR [application/xml]</codeblock>
+                        </entry>
+                        <entry colname="col5">
+                           <codeblock/>
+                        </entry>
+                        <entry colname="col6">
+                           <uicontrol>"Use application"</uicontrol>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry colname="col1">
+                           <xref format="dita" scope="local" type="reference"
+                                 href="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8014#GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8014">Check Publication Visiblity</xref>
+                        </entry>
+                        <entry colname="col2">
+                           <codeph>GET</codeph>
+                        </entry>
+                        <entry colname="col3">
+                           <filepath>/v2/content/{pub}/ifvisible</filepath>
+                        </entry>
+                        <entry colname="col4">
+                           <codeblock>[application/json] OR [application/xml]</codeblock>
+                        </entry>
+                        <entry colname="col5">
+                           <codeblock/>
+                        </entry>
+                        <entry colname="col6">
+                           <uicontrol>"Use application"</uicontrol>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry colname="col1">
+                           <xref format="dita" scope="local" type="reference"
+                                 href="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800B#GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800B">Create Language</xref>
+                        </entry>
+                        <entry colname="col2">
+                           <codeph>POST</codeph>
+                        </entry>
+                        <entry colname="col3">
+                           <filepath>/v2/content/{pub}/{lang}</filepath>
+                        </entry>
+                        <entry colname="col4">
+                           <codeblock>[application/json] OR [application/xml]</codeblock>
+                        </entry>
+                        <entry colname="col5">
+                           <codeblock/>
+                        </entry>
+                        <entry colname="col6">
+                           <uicontrol>"Manage publications"</uicontrol>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry colname="col1">
+                           <xref format="dita" scope="local" type="reference"
+                                 href="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8009#GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8009">Create Publication</xref>
+                        </entry>
+                        <entry colname="col2">
+                           <codeph>POST</codeph>
+                        </entry>
+                        <entry colname="col3">
+                           <filepath>/v2/content/{pub}?lang={lang}&amp;standard={standard}</filepath>
+                        </entry>
+                        <entry colname="col4">
+                           <codeblock>[application/json] OR [application/xml]</codeblock>
+                        </entry>
+                        <entry colname="col5">
+                           <codeblock/>
+                        </entry>
+                        <entry colname="col6">
+                           <uicontrol>"Manage publications"</uicontrol>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry colname="col1">
+                           <xref format="dita" scope="local" type="reference"
+                                 href="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8013#GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8013">Create or Update Language Configuration Item</xref>
+                        </entry>
+                        <entry colname="col2">
+                           <codeph>PUT</codeph>
+                        </entry>
+                        <entry colname="col3">
+                           <filepath>/v2/content/{pub}/{lang}/config/{item_name}</filepath>
+                        </entry>
+                        <entry colname="col4">
+                           <codeblock>[application/json] OR [application/xml]</codeblock>
+                        </entry>
+                        <entry colname="col5">
+                           <codeblock>{"name":"title", "value":"LiveContent Reach Documentation"}</codeblock>
+                        </entry>
+                        <entry colname="col6">
+                           <uicontrol>"Manage publications"</uicontrol>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry colname="col1">
+                           <xref format="dita" scope="local" type="reference"
+                                 href="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8012#GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8012">Create or Update Publication Configuration Item</xref>
+                        </entry>
+                        <entry colname="col2">
+                           <codeph>PUT</codeph>
+                        </entry>
+                        <entry colname="col3">
+                           <filepath>/v2/content/{pub}/config/{item_name}</filepath>
+                        </entry>
+                        <entry colname="col4">
+                           <codeblock>[application/json] OR [application/xml]</codeblock>
+                        </entry>
+                        <entry colname="col5">
+                           <codeblock>{"name":"title", "value":"LiveContent Reach Documentation"}</codeblock>
+                        </entry>
+                        <entry colname="col6">
+                           <uicontrol>"Manage publications"</uicontrol>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry colname="col1">
+                           <xref format="dita" scope="local" type="reference"
+                                 href="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800A#GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800A">Delete Language</xref>
+                        </entry>
+                        <entry colname="col2">
+                           <codeph>DELETE</codeph>
+                        </entry>
+                        <entry colname="col3">
+                           <filepath>/v2/content/{pub}/{lang}?delete_forms={delete_forms}</filepath>
+                        </entry>
+                        <entry colname="col4">
+                           <codeblock>[application/json] OR [application/xml]</codeblock>
+                        </entry>
+                        <entry colname="col5">
+                           <codeblock/>
+                        </entry>
+                        <entry colname="col6">
+                           <uicontrol>"Manage publications"</uicontrol>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry colname="col1">
+                           <xref format="dita" scope="local" type="reference"
+                                 href="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8011#GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8011">Delete Language Configuration Item</xref>
+                        </entry>
+                        <entry colname="col2">
+                           <codeph>DELETE</codeph>
+                        </entry>
+                        <entry colname="col3">
+                           <filepath>/v2/content/{pub}/{lang}/config/{item_name}</filepath>
+                        </entry>
+                        <entry colname="col4">
+                           <codeblock>[application/json] OR [application/xml]</codeblock>
+                        </entry>
+                        <entry colname="col5">
+                           <codeblock/>
+                        </entry>
+                        <entry colname="col6">
+                           <uicontrol>"Manage publications"</uicontrol>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry colname="col1">
+                           <xref format="dita" scope="local" type="reference"
+                                 href="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8008#GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8008">Delete Publication</xref>
+                        </entry>
+                        <entry colname="col2">
+                           <codeph>DELETE</codeph>
+                        </entry>
+                        <entry colname="col3">
+                           <filepath>/v2/content/{pub}?delete_forms={delete_forms}</filepath>
+                        </entry>
+                        <entry colname="col4">
+                           <codeblock>[application/json] OR [application/xml]</codeblock>
+                        </entry>
+                        <entry colname="col5">
+                           <codeblock/>
+                        </entry>
+                        <entry colname="col6">
+                           <uicontrol>"Manage publications"</uicontrol>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry colname="col1">
+                           <xref format="dita" scope="local" type="reference"
+                                 href="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8010#GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8010">Delete Publication Configuration Item</xref>
+                        </entry>
+                        <entry colname="col2">
+                           <codeph>DELETE</codeph>
+                        </entry>
+                        <entry colname="col3">
+                           <filepath>/v2/content/{pub}/config/{item_name}</filepath>
+                        </entry>
+                        <entry colname="col4">
+                           <codeblock>[application/json] OR [application/xml]</codeblock>
+                        </entry>
+                        <entry colname="col5">
+                           <codeblock/>
+                        </entry>
+                        <entry colname="col6">
+                           <uicontrol>"Manage publications"</uicontrol>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry colname="col1">
+                           <xref format="dita" scope="local" type="reference"
+                                 href="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800F#GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800F">Fetch Language Configuration</xref>
+                        </entry>
+                        <entry colname="col2">
+                           <codeph>GET</codeph>
+                        </entry>
+                        <entry colname="col3">
+                           <filepath>/v2/content/{pub}/{lang}/config</filepath>
+                        </entry>
+                        <entry colname="col4">
+                           <codeblock>[application/json] OR [application/xml]</codeblock>
+                        </entry>
+                        <entry colname="col5">
+                           <codeblock/>
+                        </entry>
+                        <entry colname="col6">
+                           <uicontrol>"Use application"</uicontrol>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry colname="col1">
+                           <xref format="dita" scope="local" type="reference"
+                                 href="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800E#GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800E">Fetch Language Configuration Item</xref>
+                        </entry>
+                        <entry colname="col2">
+                           <codeph>GET</codeph>
+                        </entry>
+                        <entry colname="col3">
+                           <filepath>/v2/content/{pub}/{lang}/config/{item_name}</filepath>
+                        </entry>
+                        <entry colname="col4">
+                           <codeblock>[application/json] OR [application/xml]</codeblock>
+                        </entry>
+                        <entry colname="col5">
+                           <codeblock/>
+                        </entry>
+                        <entry colname="col6">
+                           <uicontrol>"Use application"</uicontrol>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry colname="col1">
+                           <xref format="dita" scope="local" type="reference"
+                                 href="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8007#GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8007">Fetch Publication Configuration</xref>
+                        </entry>
+                        <entry colname="col2">
+                           <codeph>GET</codeph>
+                        </entry>
+                        <entry colname="col3">
+                           <filepath>/v2/content/{pub}/config</filepath>
+                        </entry>
+                        <entry colname="col4">
+                           <codeblock>[application/json] OR [application/xml]</codeblock>
+                        </entry>
+                        <entry colname="col5">
+                           <codeblock/>
+                        </entry>
+                        <entry colname="col6">
+                           <uicontrol>"Use application"</uicontrol>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry colname="col1">
+                           <xref format="dita" scope="local" type="reference"
+                                 href="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800D#GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800D">Fetch Publication Configuration Item</xref>
+                        </entry>
+                        <entry colname="col2">
+                           <codeph>GET</codeph>
+                        </entry>
+                        <entry colname="col3">
+                           <filepath>/v2/content/{pub}/config/{item_name}</filepath>
+                        </entry>
+                        <entry colname="col4">
+                           <codeblock>[application/json] OR [application/xml]</codeblock>
+                        </entry>
+                        <entry colname="col5">
+                           <codeblock/>
+                        </entry>
+                        <entry colname="col6">
+                           <uicontrol>"Use application"</uicontrol>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry colname="col1">
+                           <xref format="dita" scope="local" type="reference"
+                                 href="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800C#GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800C">Fetch Publications Configuration</xref>
+                        </entry>
+                        <entry colname="col2">
+                           <codeph>GET</codeph>
+                        </entry>
+                        <entry colname="col3">
+                           <filepath>/v2/content/config</filepath>
+                        </entry>
+                        <entry colname="col4">
+                           <codeblock>[application/json] OR [application/xml]</codeblock>
+                        </entry>
+                        <entry colname="col5">
+                           <codeblock/>
+                        </entry>
+                        <entry colname="col6">
+                           <uicontrol>"Use application"</uicontrol>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry colname="col1">
+                           <xref format="dita" scope="local" type="reference"
+                                 href="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8006#GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8006">Validate Language Code</xref>
+                        </entry>
+                        <entry colname="col2">
+                           <codeph>GET</codeph>
+                        </entry>
+                        <entry colname="col3">
+                           <filepath>/v2/content/config/validate/{lang}</filepath>
+                        </entry>
+                        <entry colname="col4">
+                           <codeblock>[application/json] OR [application/xml]</codeblock>
+                        </entry>
+                        <entry colname="col5">
+                           <codeblock/>
+                        </entry>
+                        <entry colname="col6">
+                           <uicontrol>"Use application"</uicontrol>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+      </section>
+   </refbody>
+</reference>

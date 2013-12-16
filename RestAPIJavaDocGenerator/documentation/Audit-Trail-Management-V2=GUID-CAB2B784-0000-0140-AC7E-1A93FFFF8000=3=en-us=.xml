@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8000">
+   <title>Audit Trail Management V2</title>
+   <shortdesc>Resources to create, manage, and display audit trails.</shortdesc>
+   <refbody>
+      <section>
+         <p>
+            <table>
+               <tgroup cols="6">
+                  <colspec colnum="1" colname="col1" colwidth="*"/>
+                  <colspec colnum="2" colname="col2" colwidth="*"/>
+                  <colspec colnum="3" colname="col3" colwidth="*"/>
+                  <colspec colnum="4" colname="col4" colwidth="*"/>
+                  <colspec colnum="5" colname="col5" colwidth="*"/>
+                  <colspec colnum="6" colname="col6" colwidth="*"/>
+                  <thead>
+                     <row>
+                        <entry colname="col1"> API Call </entry>
+                        <entry colname="col2"> HTTP Method </entry>
+                        <entry colname="col3"> URL </entry>
+                        <entry colname="col4"> Format </entry>
+                        <entry colname="col5"> Form Data </entry>
+                        <entry colname="col6"> Permissions </entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry colname="col1">
+                           <xref format="dita" scope="local" type="reference"
+                                 href="GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8004#GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8004">Create an Audit</xref>
+                        </entry>
+                        <entry colname="col2">
+                           <codeph>POST</codeph>
+                        </entry>
+                        <entry colname="col3">
+                           <filepath>/v2/audit/{session_id}</filepath>
+                        </entry>
+                        <entry colname="col4">
+                           <codeblock>[application/json] OR [application/xml]</codeblock>
+                        </entry>
+                        <entry colname="col5">
+                           <codeblock/>
+                        </entry>
+                        <entry colname="col6">
+                           <uicontrol>"Use application"</uicontrol>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry colname="col1">
+                           <xref format="dita" scope="local" type="reference"
+                                 href="GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8005#GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8005">Create an Event in the Current Audit</xref>
+                        </entry>
+                        <entry colname="col2">
+                           <codeph>POST</codeph>
+                        </entry>
+                        <entry colname="col3">
+                           <filepath>/v2/audit/{session_id}/{event}</filepath>
+                        </entry>
+                        <entry colname="col4">
+                           <codeblock>[application/json] OR [application/xml]</codeblock>
+                        </entry>
+                        <entry colname="col5">
+                           <codeblock>{"aggregated":"no","session_id":"1j0ixpkybitj2","time":"2013-08-20T13:55:08.002-04:00","hostid":"283a0990-1d98-4d85-b3f8-63194b7aa9c1","user_agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36","browser":"chrome","event":[]}</codeblock>
+                        </entry>
+                        <entry colname="col6">
+                           <uicontrol>"Use application"</uicontrol>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry colname="col1">
+                           <xref format="dita" scope="local" type="reference"
+                                 href="GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8001#GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8001">Delete an Audit</xref>
+                        </entry>
+                        <entry colname="col2">
+                           <codeph>DELETE</codeph>
+                        </entry>
+                        <entry colname="col3">
+                           <filepath>/v2/audit/{session_id}</filepath>
+                        </entry>
+                        <entry colname="col4">
+                           <codeblock>[application/json] OR [application/xml]</codeblock>
+                        </entry>
+                        <entry colname="col5">
+                           <codeblock/>
+                        </entry>
+                        <entry colname="col6">
+                           <uicontrol>"Manage publications"</uicontrol>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry colname="col1">
+                           <xref format="dita" scope="local" type="reference"
+                                 href="GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8003#GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8003">Fetch Audits</xref>
+                        </entry>
+                        <entry colname="col2">
+                           <codeph>GET</codeph>
+                        </entry>
+                        <entry colname="col3">
+                           <filepath>/v2/audit?scope=&lt;value&gt;&amp;start=&lt;value&gt;&amp;length=&lt;value&gt;</filepath>
+                        </entry>
+                        <entry colname="col4">
+                           <codeblock>[application/json] OR [application/xml]</codeblock>
+                        </entry>
+                        <entry colname="col5">
+                           <codeblock/>
+                        </entry>
+                        <entry colname="col6">
+                           <uicontrol>"Manage publications"</uicontrol>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry colname="col1">
+                           <xref format="dita" scope="local" type="reference"
+                                 href="GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8002#GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8002">Fetch an audit</xref>
+                        </entry>
+                        <entry colname="col2">
+                           <codeph>GET</codeph>
+                        </entry>
+                        <entry colname="col3">
+                           <filepath>/v2/audit/{session_id}</filepath>
+                        </entry>
+                        <entry colname="col4">
+                           <codeblock>[application/json] OR [application/xml]</codeblock>
+                        </entry>
+                        <entry colname="col5">
+                           <codeblock/>
+                        </entry>
+                        <entry colname="col6">
+                           <uicontrol>"Manage application"</uicontrol>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+      </section>
+   </refbody>
+</reference>

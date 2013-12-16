@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference outputclass="NewPage" id="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8020">
+<title>Fetch XForm Template Configurations</title>
+<shortdesc>Fetches the list of all XForm template configurations.</shortdesc>
+<refbody>
+<section>
+<title>Request</title>
+<p>
+<parmname>URI: </parmname>
+<codeph>/v2/xforms/config</codeph>
+</p>
+<p>
+<parmname>HTTP Method: </parmname>GET</p>
+<p>
+<b>Header params:</b>
+<ul>
+<li>
+<parmname>Accept: </parmname>
+<codeph>[application/json] OR [application/xml]</codeph>
+</li>
+<li>
+<parmname>Content-Type: </parmname>
+<codeph>[application/json] OR [application/xml]</codeph>
+</li>
+</ul>
+</p>
+</section>
+<section>
+<title>Response</title>
+<p>
+<b>Success</b>
+<ul>
+<li>
+<parmname>XML:</parmname>
+<codeph>&lt;configuration&gt;&lt;xform xformfile="xform.issue_report.html" type="floating" status_options="" public="false" icon="issue_report.png" id="xform.issue_report" allow_status="0" allow_replies="0" allow_edits="1"/&gt;&lt;xform xformfile="xform.comment.html" type="doc" status_options="xform.status.accepted|xform.status.rejected|xform.status.completed|" public="true" icon="comment.png" id="xform.comment" allow_status="1" allow_replies="1" allow_edits="1"/&gt;&lt;/configuration&gt;</codeph>
+</li>
+<li>
+<parmname>JSON:</parmname>
+<codeph>{"xform":[{"id":"xform.issue_report", "type":"floating", "public":false, "allow_edits":1, "allow_replies":0, "allow_status":0, "icon":"issue_report.png", "reply_status_options":null, "status_options":"", "xformfile":"xform.issue_report.html"},{"id":"xform.comment", "type":"doc", "public":true,"allow_edits":1,"allow_replies":1,"allow_status":1,"icon":"comment.png", "reply_status_options":null,"status_options":"xform.status.accepted|xform.status.rejected|xform.status.completed|", "xformfile":"xform.comment.html"}]}</codeph>
+</li>
+</ul>
+</p>
+<p>
+<b>Failed</b>
+<ul>
+<li>
+<parmname>XML:</parmname>
+<codeph>&lt;result statusCode="404" status="FAIL" messageKey="Config resource was not found.", message="Config resource was not found."/&gt;</codeph>
+</li>
+<li>
+<parmname>JSON:</parmname>
+<codeph>{"statusCode":404,"messageKey":"Config resource was not found.", "message":"Config resource was not found.", "status":"FAIL", "info":[]}</codeph>
+</li>
+</ul>
+</p>
+</section>
+<section>
+<title>Permissions</title>
+<p>"Use application"</p>
+</section>
+<section>
+<title>Example</title>
+<p>
+<b>Request:</b>
+</p>
+<p>
+<b>GET</b> <codeph>http://example.corp:8080/LiveContent/v2/xforms/config</codeph>
+</p>
+<p>
+<b>Response:</b>
+</p>
+<p>
+<codeph>&lt;configuration&gt;&lt;xform xformfile="xform.issue_report.html" type="floating" status_options="" public="false" icon="issue_report.png" id="xform.issue_report" allow_status="0" allow_replies="0" allow_edits="1"/&gt;&lt;xform xformfile="xform.comment.html" type="doc" status_options="xform.status.accepted|xform.status.rejected|xform.status.completed|" public="true" icon="comment.png" id="xform.comment" allow_status="1" allow_replies="1" allow_edits="1"/&gt;&lt;/configuration&gt;</codeph>
+</p>
+</section>
+</refbody>
+</reference>

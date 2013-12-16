@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="GUID-2E323793-5327-4F9D-9435-CD23BE487091">
+   <title>XForms - User Generated Content V2</title>
+   <shortdesc>Resources for creating, updating, deleting, and fetching XForm templates.</shortdesc>
+   <refbody>
+      <section>
+         <p>
+            <table>
+               <tgroup cols="6">
+                  <colspec colnum="1" colname="col1" colwidth="*"/>
+                  <colspec colnum="2" colname="col2" colwidth="*"/>
+                  <colspec colnum="3" colname="col3" colwidth="*"/>
+                  <colspec colnum="4" colname="col4" colwidth="*"/>
+                  <colspec colnum="5" colname="col5" colwidth="*"/>
+                  <colspec colnum="6" colname="col6" colwidth="*"/>
+                  <thead>
+                     <row>
+                        <entry colname="col1"> API Call </entry>
+                        <entry colname="col2"> HTTP Method </entry>
+                        <entry colname="col3"> URL </entry>
+                        <entry colname="col4"> Format </entry>
+                        <entry colname="col5"> Form Data </entry>
+                        <entry colname="col6"> Permissions </entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry colname="col1">
+                           <xref format="dita" scope="local" type="reference"
+                                 href="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8022#GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8022">Create or Update an XForm Template Configuration</xref>
+                        </entry>
+                        <entry colname="col2">
+                           <codeph>PUT</codeph>
+                        </entry>
+                        <entry colname="col3">
+                           <filepath>/v2/xforms/config/{id}</filepath>
+                        </entry>
+                        <entry colname="col4">
+                           <codeblock>[application/json] OR [application/xml]</codeblock>
+                        </entry>
+                        <entry colname="col5">
+                           <codeblock>{"id":"xform.comment", "type":"doc", "public":"true", "allow_edits":"0", "allow_replies":"1", "allow_status":"1", "reply_status_options":"xform.status.new|xform.status.accepted|xform.status.rejected|xform.status.completed|", "status_options":"xform.status.accepted|xform.status.rejected|xform.status.completed|"}</codeblock>
+                        </entry>
+                        <entry colname="col6">
+                           <uicontrol>"Develop application"</uicontrol>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry colname="col1">
+                           <xref format="dita" scope="local" type="reference"
+                                 href="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8023#GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8023">Delete an XForm Template Configuration</xref>
+                        </entry>
+                        <entry colname="col2">
+                           <codeph>DELETE</codeph>
+                        </entry>
+                        <entry colname="col3">
+                           <filepath>/v2/xforms/config/{id}</filepath>
+                        </entry>
+                        <entry colname="col4">
+                           <codeblock>[application/json] OR [application/xml]</codeblock>
+                        </entry>
+                        <entry colname="col5">
+                           <codeblock/>
+                        </entry>
+                        <entry colname="col6">
+                           <uicontrol>"Develop application"</uicontrol>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry colname="col1">
+                           <xref format="dita" scope="local" type="reference"
+                                 href="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8020#GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8020">Fetch XForm Template Configurations</xref>
+                        </entry>
+                        <entry colname="col2">
+                           <codeph>GET</codeph>
+                        </entry>
+                        <entry colname="col3">
+                           <filepath>/v2/xforms/config</filepath>
+                        </entry>
+                        <entry colname="col4">
+                           <codeblock>[application/json] OR [application/xml]</codeblock>
+                        </entry>
+                        <entry colname="col5">
+                           <codeblock/>
+                        </entry>
+                        <entry colname="col6">
+                           <uicontrol>"Use application"</uicontrol>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry colname="col1">
+                           <xref format="dita" scope="local" type="reference"
+                                 href="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8021#GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8021">Fetch an XForm Template Configuration</xref>
+                        </entry>
+                        <entry colname="col2">
+                           <codeph>GET</codeph>
+                        </entry>
+                        <entry colname="col3">
+                           <filepath>/v2/xforms/config/{id}</filepath>
+                        </entry>
+                        <entry colname="col4">
+                           <codeblock>[application/json] OR [application/xml]</codeblock>
+                        </entry>
+                        <entry colname="col5">
+                           <codeblock/>
+                        </entry>
+                        <entry colname="col6">
+                           <uicontrol>"Use application"</uicontrol>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+      </section>
+   </refbody>
+</reference>

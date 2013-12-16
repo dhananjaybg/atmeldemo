@@ -1,0 +1,915 @@
+  13/09/16 15:19:32  ------------------------------------------------------------------------------------
+  13/09/16 15:19:32  [JavaDocToDITAConverter Version [JavaDocToDITAConverter Version 5.1.0.0.0.20110311]]
+  13/09/16 15:19:32  Copyright SDL Structured Content Technologies Division 2011.  All rights reserved.
+  13/09/16 15:19:32  ------------------------------------------------------------------------------------
+  13/09/16 15:19:32  
+  13/09/16 15:19:32  Begin Run.
+  13/09/16 15:19:32  Log file name = C:\Dev\Atmel\RestAPIJavaDocGenerator\logs\JavaDocToDITAConverter20130916.LOG
+  13/09/16 15:19:32  Arguments: [-autoGUID -version= 3 -outDir=C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut -logFile=C:/Dev/Atmel/RestAPIJavaDocGenerator/logs -inDir=C:/Dev/Atmel/RestAPIJavaDocGenerator/restAPIsrc -extFilter= java,jav -classXSLTFile=C:/Dev/Atmel/RestAPIJavaDocGenerator/restClass.xsl -apiXSLTFile=C:/Dev/Atmel/RestAPIJavaDocGenerator/restAPI.xsl]
+  13/09/16 15:19:32  
+  13/09/16 15:19:32  executeFileParser.....
+  13/09/16 15:19:32  ************************************************************************************
+  13/09/16 15:19:32  Processing file AuditTrailResource.java
+  13/09/16 15:19:32  Started parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\AuditTrailResource.java
+  13/09/16 15:19:32  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:33  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:33  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:33  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-an-Audit=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8001=-3=en-us=.xml
+  13/09/16 15:19:33  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:33  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:33  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:33  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-an-audit=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8002=-3=en-us=.xml
+  13/09/16 15:19:33  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:33  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:33  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:33  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Audits=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8003=-3=en-us=.xml
+  13/09/16 15:19:33  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:33  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:33  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:33  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-an-Audit=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8004=-3=en-us=.xml
+  13/09/16 15:19:33  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:33  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:33  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:33  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-an-Event-in-the-Current-Audit=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8005=-3=en-us=.xml
+  13/09/16 15:19:33  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:33  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:33  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:33  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Audit-Trail-Management-V2=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8000=-3=en-us=.xml
+  13/09/16 15:19:33  Total number of function in C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\AuditTrailResource.java is 5
+  13/09/16 15:19:33  Finished parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\AuditTrailResource.java
+  13/09/16 15:19:33  Successfully parsed file AuditTrailResource.java
+  13/09/16 15:19:33  ************************************************************************************
+  13/09/16 15:19:33  Processing file ConfigurationResource.java
+  13/09/16 15:19:33  Started parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\ConfigurationResource.java
+  13/09/16 15:19:33  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:33  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:33  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:33  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Global-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8001=-3=en-us=.xml
+  13/09/16 15:19:33  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:33  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:33  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:33  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-a-Global-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8002=-3=en-us=.xml
+  13/09/16 15:19:33  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:33  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:33  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:33  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-or-Update-a-Global-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8003=-3=en-us=.xml
+  13/09/16 15:19:33  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:33  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:33  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:33  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-a-Global-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8004=-3=en-us=.xml
+  13/09/16 15:19:33  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:33  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:33  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:33  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Global-Configuration-V2=GUID-A779FDAB-D480-4001-ADB3-D4A60214D2F7=-3=en-us=.xml
+  13/09/16 15:19:33  Total number of function in C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\ConfigurationResource.java is 4
+  13/09/16 15:19:33  Finished parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\ConfigurationResource.java
+  13/09/16 15:19:33  Successfully parsed file ConfigurationResource.java
+  13/09/16 15:19:33  ************************************************************************************
+  13/09/16 15:19:33  Processing file PublicationResource.java
+  13/09/16 15:19:33  Started parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\PublicationResource.java
+  13/09/16 15:19:33  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:33  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:33  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:33  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Validate-Language-Code=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8006=-3=en-us=.xml
+  13/09/16 15:19:33  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:33  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:33  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:33  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Publication-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8007=-3=en-us=.xml
+  13/09/16 15:19:33  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:33  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:33  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:33  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-Publication=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8008=-3=en-us=.xml
+  13/09/16 15:19:33  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:33  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:33  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-Publication=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8009=-3=en-us=.xml
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-Language=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800A=-3=en-us=.xml
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-Language=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800B=-3=en-us=.xml
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Publications-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800C=-3=en-us=.xml
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Publication-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800D=-3=en-us=.xml
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Language-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800E=-3=en-us=.xml
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Language-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800F=-3=en-us=.xml
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-Publication-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8010=-3=en-us=.xml
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-Language-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8011=-3=en-us=.xml
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-or-Update-Publication-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8012=-3=en-us=.xml
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-or-Update-Language-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8013=-3=en-us=.xml
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Check-Publication-Visiblity=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8014=-3=en-us=.xml
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Check-Publication-Existence=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8015=-3=en-us=.xml
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Check-Language-Existence=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8016=-3=en-us=.xml
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Publication-Management-V2=GUID-F262882F-C735-4432-9593-2B0E547A2338=-3=en-us=.xml
+  13/09/16 15:19:34  Total number of function in C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\PublicationResource.java is 17
+  13/09/16 15:19:34  Finished parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\PublicationResource.java
+  13/09/16 15:19:34  Successfully parsed file PublicationResource.java
+  13/09/16 15:19:34  ************************************************************************************
+  13/09/16 15:19:34  Processing file SearchIndexResource.java
+  13/09/16 15:19:34  Started parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\SearchIndexResource.java
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Search-Indexes=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8018=-3=en-us=.xml
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-Search-Index=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8019=-3=en-us=.xml
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-Search-Index=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF801A=-3=en-us=.xml
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Search-Index-Management-V2=GUID-D4FFAE43-88A5-4531-A56B-422EC6FC77E5=-3=en-us=.xml
+  13/09/16 15:19:34  Total number of function in C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\SearchIndexResource.java is 3
+  13/09/16 15:19:34  Finished parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\SearchIndexResource.java
+  13/09/16 15:19:34  Successfully parsed file SearchIndexResource.java
+  13/09/16 15:19:34  ************************************************************************************
+  13/09/16 15:19:34  Processing file SiteMapResource.java
+  13/09/16 15:19:34  Started parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\SiteMapResource.java
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-a-Sitemap=GUID-96237A49-0000-0140-1296-F0B7FFFF8001=-3=en-us=.xml
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-or-Update-Sitemap=GUID-96237A49-0000-0140-1296-F0B7FFFF8002=-3=en-us=.xml
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-Sitemaps=GUID-96237A49-0000-0140-1296-F0B7FFFF8003=-3=en-us=.xml
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Sitemap-Management--V2=GUID-96237A49-0000-0140-1296-F0B7FFFF8000=-3=en-us=.xml
+  13/09/16 15:19:34  Total number of function in C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\SiteMapResource.java is 3
+  13/09/16 15:19:34  Finished parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\SiteMapResource.java
+  13/09/16 15:19:34  Successfully parsed file SiteMapResource.java
+  13/09/16 15:19:34  ************************************************************************************
+  13/09/16 15:19:34  Processing file SkinResource.java
+  13/09/16 15:19:34  Started parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\SkinResource.java
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Skins=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF801C=-3=en-us=.xml
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-Skin=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF801D=-3=en-us=.xml
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-Skin=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF801E=-3=en-us=.xml
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Skin-Management-V2=GUID-1C58971C-F055-40E8-A0A0-498F31080B2F=-3=en-us=.xml
+  13/09/16 15:19:34  Total number of function in C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\SkinResource.java is 3
+  13/09/16 15:19:34  Finished parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\SkinResource.java
+  13/09/16 15:19:34  Successfully parsed file SkinResource.java
+  13/09/16 15:19:34  ************************************************************************************
+  13/09/16 15:19:34  Processing file StandardResource.java
+  13/09/16 15:19:34  Started parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\StandardResource.java
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Standards=GUID-AAA95141-0000-013F-A0E7-2C91FFFF8001=-3=en-us=.xml
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-a-Standard=GUID-AAA95141-0000-013F-A0E7-2C91FFFF8002=-3=en-us=.xml
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-a-Standard=GUID-AAA95141-0000-013F-A0E7-2C91FFFF8003=-3=en-us=.xml
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Standards-Configuration-V2=GUID-AAA95141-0000-013F-A0E7-2C91FFFF8000=-3=en-us=.xml
+  13/09/16 15:19:34  Total number of function in C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\StandardResource.java is 3
+  13/09/16 15:19:34  Finished parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\StandardResource.java
+  13/09/16 15:19:34  Successfully parsed file StandardResource.java
+  13/09/16 15:19:34  ************************************************************************************
+  13/09/16 15:19:34  Processing file UserResource.java
+  13/09/16 15:19:34  Started parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\UserResource.java
+  13/09/16 15:19:34  Total number of function in C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\UserResource.java is 0
+  13/09/16 15:19:34  Finished parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\UserResource.java
+  13/09/16 15:19:34  Successfully parsed file UserResource.java
+  13/09/16 15:19:34  ************************************************************************************
+  13/09/16 15:19:34  Processing file XFormResource.java
+  13/09/16 15:19:34  Started parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\XFormResource.java
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-XForm-Template-Configurations=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8020=-3=en-us=.xml
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-an-XForm-Template-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8021=-3=en-us=.xml
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-or-Update-an-XForm-Template-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8022=-3=en-us=.xml
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:34  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-an-XForm-Template-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8023=-3=en-us=.xml
+  13/09/16 15:19:34  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:19:34  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:19:35  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\XForms---User-Generated-Content-V2=GUID-2E323793-5327-4F9D-9435-CD23BE487091=-3=en-us=.xml
+  13/09/16 15:19:35  Total number of function in C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\XFormResource.java is 4
+  13/09/16 15:19:35  Finished parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\XFormResource.java
+  13/09/16 15:19:35  Successfully parsed file XFormResource.java
+  13/09/16 15:19:35  ************************************************************************************
+  13/09/16 15:19:35  
+  13/09/16 15:19:35  Total number of files parsed is 9
+  13/09/16 15:19:35  End Run.
+  13/09/16 15:21:27  ------------------------------------------------------------------------------------
+  13/09/16 15:21:27  [JavaDocToDITAConverter Version [JavaDocToDITAConverter Version 5.1.0.0.0.20110311]]
+  13/09/16 15:21:27  Copyright SDL Structured Content Technologies Division 2011.  All rights reserved.
+  13/09/16 15:21:27  ------------------------------------------------------------------------------------
+  13/09/16 15:21:27  
+  13/09/16 15:21:27  Begin Run.
+  13/09/16 15:21:27  Log file name = C:\Dev\Atmel\RestAPIJavaDocGenerator\logs\JavaDocToDITAConverter20130916.LOG
+  13/09/16 15:21:27  Arguments: [-autoGUID -outDir=C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut -logFile=C:/Dev/Atmel/RestAPIJavaDocGenerator/logs -inDir=C:/Dev/Atmel/RestAPIJavaDocGenerator/restAPIsrc -extFilter= java,jav -classXSLTFile=C:/Dev/Atmel/RestAPIJavaDocGenerator/restClass.xsl -apiXSLTFile=C:/Dev/Atmel/RestAPIJavaDocGenerator/restAPI.xsl]
+  13/09/16 15:21:27  
+  13/09/16 15:21:27  executeFileParser.....
+  13/09/16 15:21:27  ************************************************************************************
+  13/09/16 15:21:27  Processing file AuditTrailResource.java
+  13/09/16 15:21:27  Started parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\AuditTrailResource.java
+  13/09/16 15:21:27  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:27  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:27  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:27  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-an-Audit=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8001=1=en-us=.xml
+  13/09/16 15:21:27  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:27  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:27  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:27  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-an-audit=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8002=1=en-us=.xml
+  13/09/16 15:21:27  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:27  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:27  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:27  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Audits=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8003=1=en-us=.xml
+  13/09/16 15:21:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-an-Audit=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8004=1=en-us=.xml
+  13/09/16 15:21:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-an-Event-in-the-Current-Audit=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8005=1=en-us=.xml
+  13/09/16 15:21:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Audit-Trail-Management-V2=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8000=1=en-us=.xml
+  13/09/16 15:21:28  Total number of function in C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\AuditTrailResource.java is 5
+  13/09/16 15:21:28  Finished parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\AuditTrailResource.java
+  13/09/16 15:21:28  Successfully parsed file AuditTrailResource.java
+  13/09/16 15:21:28  ************************************************************************************
+  13/09/16 15:21:28  Processing file ConfigurationResource.java
+  13/09/16 15:21:28  Started parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\ConfigurationResource.java
+  13/09/16 15:21:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Global-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8001=1=en-us=.xml
+  13/09/16 15:21:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-a-Global-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8002=1=en-us=.xml
+  13/09/16 15:21:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-or-Update-a-Global-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8003=1=en-us=.xml
+  13/09/16 15:21:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-a-Global-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8004=1=en-us=.xml
+  13/09/16 15:21:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Global-Configuration-V2=GUID-A779FDAB-D480-4001-ADB3-D4A60214D2F7=1=en-us=.xml
+  13/09/16 15:21:28  Total number of function in C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\ConfigurationResource.java is 4
+  13/09/16 15:21:28  Finished parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\ConfigurationResource.java
+  13/09/16 15:21:28  Successfully parsed file ConfigurationResource.java
+  13/09/16 15:21:28  ************************************************************************************
+  13/09/16 15:21:28  Processing file PublicationResource.java
+  13/09/16 15:21:28  Started parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\PublicationResource.java
+  13/09/16 15:21:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Validate-Language-Code=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8006=1=en-us=.xml
+  13/09/16 15:21:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Publication-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8007=1=en-us=.xml
+  13/09/16 15:21:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-Publication=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8008=1=en-us=.xml
+  13/09/16 15:21:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-Publication=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8009=1=en-us=.xml
+  13/09/16 15:21:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-Language=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800A=1=en-us=.xml
+  13/09/16 15:21:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-Language=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800B=1=en-us=.xml
+  13/09/16 15:21:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Publications-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800C=1=en-us=.xml
+  13/09/16 15:21:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Publication-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800D=1=en-us=.xml
+  13/09/16 15:21:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Language-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800E=1=en-us=.xml
+  13/09/16 15:21:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Language-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800F=1=en-us=.xml
+  13/09/16 15:21:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-Publication-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8010=1=en-us=.xml
+  13/09/16 15:21:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-Language-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8011=1=en-us=.xml
+  13/09/16 15:21:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-or-Update-Publication-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8012=1=en-us=.xml
+  13/09/16 15:21:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-or-Update-Language-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8013=1=en-us=.xml
+  13/09/16 15:21:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Check-Publication-Visiblity=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8014=1=en-us=.xml
+  13/09/16 15:21:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Check-Publication-Existence=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8015=1=en-us=.xml
+  13/09/16 15:21:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Check-Language-Existence=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8016=1=en-us=.xml
+  13/09/16 15:21:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Publication-Management-V2=GUID-F262882F-C735-4432-9593-2B0E547A2338=1=en-us=.xml
+  13/09/16 15:21:28  Total number of function in C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\PublicationResource.java is 17
+  13/09/16 15:21:28  Finished parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\PublicationResource.java
+  13/09/16 15:21:28  Successfully parsed file PublicationResource.java
+  13/09/16 15:21:28  ************************************************************************************
+  13/09/16 15:21:28  Processing file SearchIndexResource.java
+  13/09/16 15:21:28  Started parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\SearchIndexResource.java
+  13/09/16 15:21:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:29  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Search-Indexes=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8018=1=en-us=.xml
+  13/09/16 15:21:29  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:29  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-Search-Index=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8019=1=en-us=.xml
+  13/09/16 15:21:29  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:29  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-Search-Index=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF801A=1=en-us=.xml
+  13/09/16 15:21:29  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:29  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Search-Index-Management-V2=GUID-D4FFAE43-88A5-4531-A56B-422EC6FC77E5=1=en-us=.xml
+  13/09/16 15:21:29  Total number of function in C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\SearchIndexResource.java is 3
+  13/09/16 15:21:29  Finished parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\SearchIndexResource.java
+  13/09/16 15:21:29  Successfully parsed file SearchIndexResource.java
+  13/09/16 15:21:29  ************************************************************************************
+  13/09/16 15:21:29  Processing file SiteMapResource.java
+  13/09/16 15:21:29  Started parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\SiteMapResource.java
+  13/09/16 15:21:29  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:29  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-a-Sitemap=GUID-96237A49-0000-0140-1296-F0B7FFFF8001=1=en-us=.xml
+  13/09/16 15:21:29  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:29  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-or-Update-Sitemap=GUID-96237A49-0000-0140-1296-F0B7FFFF8002=1=en-us=.xml
+  13/09/16 15:21:29  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:29  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-Sitemaps=GUID-96237A49-0000-0140-1296-F0B7FFFF8003=1=en-us=.xml
+  13/09/16 15:21:29  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:29  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Sitemap-Management--V2=GUID-96237A49-0000-0140-1296-F0B7FFFF8000=1=en-us=.xml
+  13/09/16 15:21:29  Total number of function in C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\SiteMapResource.java is 3
+  13/09/16 15:21:29  Finished parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\SiteMapResource.java
+  13/09/16 15:21:29  Successfully parsed file SiteMapResource.java
+  13/09/16 15:21:29  ************************************************************************************
+  13/09/16 15:21:29  Processing file SkinResource.java
+  13/09/16 15:21:29  Started parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\SkinResource.java
+  13/09/16 15:21:29  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:29  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Skins=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF801C=1=en-us=.xml
+  13/09/16 15:21:29  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:29  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-Skin=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF801D=1=en-us=.xml
+  13/09/16 15:21:29  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:29  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-Skin=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF801E=1=en-us=.xml
+  13/09/16 15:21:29  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:29  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Skin-Management-V2=GUID-1C58971C-F055-40E8-A0A0-498F31080B2F=1=en-us=.xml
+  13/09/16 15:21:29  Total number of function in C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\SkinResource.java is 3
+  13/09/16 15:21:29  Finished parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\SkinResource.java
+  13/09/16 15:21:29  Successfully parsed file SkinResource.java
+  13/09/16 15:21:29  ************************************************************************************
+  13/09/16 15:21:29  Processing file StandardResource.java
+  13/09/16 15:21:29  Started parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\StandardResource.java
+  13/09/16 15:21:29  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:29  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Standards=GUID-AAA95141-0000-013F-A0E7-2C91FFFF8001=1=en-us=.xml
+  13/09/16 15:21:29  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:29  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-a-Standard=GUID-AAA95141-0000-013F-A0E7-2C91FFFF8002=1=en-us=.xml
+  13/09/16 15:21:29  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:29  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-a-Standard=GUID-AAA95141-0000-013F-A0E7-2C91FFFF8003=1=en-us=.xml
+  13/09/16 15:21:29  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:29  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Standards-Configuration-V2=GUID-AAA95141-0000-013F-A0E7-2C91FFFF8000=1=en-us=.xml
+  13/09/16 15:21:29  Total number of function in C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\StandardResource.java is 3
+  13/09/16 15:21:29  Finished parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\StandardResource.java
+  13/09/16 15:21:29  Successfully parsed file StandardResource.java
+  13/09/16 15:21:29  ************************************************************************************
+  13/09/16 15:21:29  Processing file UserResource.java
+  13/09/16 15:21:29  Started parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\UserResource.java
+  13/09/16 15:21:29  Total number of function in C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\UserResource.java is 0
+  13/09/16 15:21:29  Finished parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\UserResource.java
+  13/09/16 15:21:29  Successfully parsed file UserResource.java
+  13/09/16 15:21:29  ************************************************************************************
+  13/09/16 15:21:29  Processing file XFormResource.java
+  13/09/16 15:21:29  Started parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\XFormResource.java
+  13/09/16 15:21:29  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:29  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-XForm-Template-Configurations=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8020=1=en-us=.xml
+  13/09/16 15:21:29  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:29  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-an-XForm-Template-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8021=1=en-us=.xml
+  13/09/16 15:21:29  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:29  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-or-Update-an-XForm-Template-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8022=1=en-us=.xml
+  13/09/16 15:21:29  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:29  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-an-XForm-Template-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8023=1=en-us=.xml
+  13/09/16 15:21:29  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:21:29  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:21:29  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\XForms---User-Generated-Content-V2=GUID-2E323793-5327-4F9D-9435-CD23BE487091=1=en-us=.xml
+  13/09/16 15:21:29  Total number of function in C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\XFormResource.java is 4
+  13/09/16 15:21:29  Finished parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\XFormResource.java
+  13/09/16 15:21:29  Successfully parsed file XFormResource.java
+  13/09/16 15:21:29  ************************************************************************************
+  13/09/16 15:21:29  
+  13/09/16 15:21:29  Total number of files parsed is 9
+  13/09/16 15:21:29  End Run.
+  13/09/16 15:23:27  ------------------------------------------------------------------------------------
+  13/09/16 15:23:27  [JavaDocToDITAConverter Version [JavaDocToDITAConverter Version 5.1.0.0.0.20110311]]
+  13/09/16 15:23:27  Copyright SDL Structured Content Technologies Division 2011.  All rights reserved.
+  13/09/16 15:23:27  ------------------------------------------------------------------------------------
+  13/09/16 15:23:27  
+  13/09/16 15:23:27  Begin Run.
+  13/09/16 15:23:27  Log file name = C:\Dev\Atmel\RestAPIJavaDocGenerator\logs\JavaDocToDITAConverter20130916.LOG
+  13/09/16 15:23:27  Arguments: [-autoGUID -outDir=C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut -logFile=C:/Dev/Atmel/RestAPIJavaDocGenerator/logs -inDir=C:/Dev/Atmel/RestAPIJavaDocGenerator/restAPIsrc -extFilter= java,jav -classXSLTFile=C:/Dev/Atmel/RestAPIJavaDocGenerator/restClass.xsl -apiXSLTFile=C:/Dev/Atmel/RestAPIJavaDocGenerator/restAPI.xsl]
+  13/09/16 15:23:27  
+  13/09/16 15:23:27  executeFileParser.....
+  13/09/16 15:23:27  ************************************************************************************
+  13/09/16 15:23:27  Processing file AuditTrailResource.java
+  13/09/16 15:23:27  Started parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\AuditTrailResource.java
+  13/09/16 15:23:27  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:27  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:27  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-an-Audit=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8001=1=en-us=.xml
+  13/09/16 15:23:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-an-audit=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8002=1=en-us=.xml
+  13/09/16 15:23:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Audits=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8003=1=en-us=.xml
+  13/09/16 15:23:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-an-Audit=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8004=1=en-us=.xml
+  13/09/16 15:23:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-an-Event-in-the-Current-Audit=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8005=1=en-us=.xml
+  13/09/16 15:23:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Audit-Trail-Management-V2=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8000=1=en-us=.xml
+  13/09/16 15:23:28  Total number of function in C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\AuditTrailResource.java is 5
+  13/09/16 15:23:28  Finished parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\AuditTrailResource.java
+  13/09/16 15:23:28  Successfully parsed file AuditTrailResource.java
+  13/09/16 15:23:28  ************************************************************************************
+  13/09/16 15:23:28  Processing file ConfigurationResource.java
+  13/09/16 15:23:28  Started parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\ConfigurationResource.java
+  13/09/16 15:23:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Global-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8001=1=en-us=.xml
+  13/09/16 15:23:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-a-Global-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8002=1=en-us=.xml
+  13/09/16 15:23:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-or-Update-a-Global-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8003=1=en-us=.xml
+  13/09/16 15:23:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-a-Global-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8004=1=en-us=.xml
+  13/09/16 15:23:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Global-Configuration-V2=GUID-A779FDAB-D480-4001-ADB3-D4A60214D2F7=1=en-us=.xml
+  13/09/16 15:23:28  Total number of function in C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\ConfigurationResource.java is 4
+  13/09/16 15:23:28  Finished parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\ConfigurationResource.java
+  13/09/16 15:23:28  Successfully parsed file ConfigurationResource.java
+  13/09/16 15:23:28  ************************************************************************************
+  13/09/16 15:23:28  Processing file PublicationResource.java
+  13/09/16 15:23:28  Started parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\PublicationResource.java
+  13/09/16 15:23:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Validate-Language-Code=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8006=1=en-us=.xml
+  13/09/16 15:23:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Publication-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8007=1=en-us=.xml
+  13/09/16 15:23:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-Publication=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8008=1=en-us=.xml
+  13/09/16 15:23:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-Publication=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8009=1=en-us=.xml
+  13/09/16 15:23:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-Language=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800A=1=en-us=.xml
+  13/09/16 15:23:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-Language=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800B=1=en-us=.xml
+  13/09/16 15:23:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Publications-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800C=1=en-us=.xml
+  13/09/16 15:23:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:28  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Publication-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800D=1=en-us=.xml
+  13/09/16 15:23:28  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:28  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:29  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Language-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800E=1=en-us=.xml
+  13/09/16 15:23:29  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:29  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:29  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:29  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Language-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800F=1=en-us=.xml
+  13/09/16 15:23:29  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:29  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:47  ------------------------------------------------------------------------------------
+  13/09/16 15:23:47  [JavaDocToDITAConverter Version [JavaDocToDITAConverter Version 5.1.0.0.0.20110311]]
+  13/09/16 15:23:47  Copyright SDL Structured Content Technologies Division 2011.  All rights reserved.
+  13/09/16 15:23:47  ------------------------------------------------------------------------------------
+  13/09/16 15:23:47  
+  13/09/16 15:23:47  Begin Run.
+  13/09/16 15:23:47  Log file name = C:\Dev\Atmel\RestAPIJavaDocGenerator\logs\JavaDocToDITAConverter20130916.LOG
+  13/09/16 15:23:47  Arguments: [-autoGUID -outDir=C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut -logFile=C:/Dev/Atmel/RestAPIJavaDocGenerator/logs -inDir=C:/Dev/Atmel/RestAPIJavaDocGenerator/restAPIsrc -extFilter= java,jav -classXSLTFile=C:/Dev/Atmel/RestAPIJavaDocGenerator/restClass.xsl -apiXSLTFile=C:/Dev/Atmel/RestAPIJavaDocGenerator/restAPI.xsl]
+  13/09/16 15:23:47  
+  13/09/16 15:23:47  executeFileParser.....
+  13/09/16 15:23:47  ************************************************************************************
+  13/09/16 15:23:47  Processing file AuditTrailResource.java
+  13/09/16 15:23:47  Started parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\AuditTrailResource.java
+  13/09/16 15:23:47  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:48  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-an-Audit=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8001=1=en-us=.xml
+  13/09/16 15:23:48  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:48  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-an-audit=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8002=1=en-us=.xml
+  13/09/16 15:23:48  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:48  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Audits=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8003=1=en-us=.xml
+  13/09/16 15:23:48  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:48  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-an-Audit=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8004=1=en-us=.xml
+  13/09/16 15:23:48  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:48  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-an-Event-in-the-Current-Audit=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8005=1=en-us=.xml
+  13/09/16 15:23:48  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:48  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Audit-Trail-Management-V2=GUID-CAB2B784-0000-0140-AC7E-1A93FFFF8000=1=en-us=.xml
+  13/09/16 15:23:48  Total number of function in C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\AuditTrailResource.java is 5
+  13/09/16 15:23:48  Finished parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\AuditTrailResource.java
+  13/09/16 15:23:48  Successfully parsed file AuditTrailResource.java
+  13/09/16 15:23:48  ************************************************************************************
+  13/09/16 15:23:48  Processing file ConfigurationResource.java
+  13/09/16 15:23:48  Started parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\ConfigurationResource.java
+  13/09/16 15:23:48  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:48  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Global-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8001=1=en-us=.xml
+  13/09/16 15:23:48  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:48  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-a-Global-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8002=1=en-us=.xml
+  13/09/16 15:23:48  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:48  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-or-Update-a-Global-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8003=1=en-us=.xml
+  13/09/16 15:23:48  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:48  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-a-Global-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8004=1=en-us=.xml
+  13/09/16 15:23:48  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:48  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Global-Configuration-V2=GUID-A779FDAB-D480-4001-ADB3-D4A60214D2F7=1=en-us=.xml
+  13/09/16 15:23:48  Total number of function in C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\ConfigurationResource.java is 4
+  13/09/16 15:23:48  Finished parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\ConfigurationResource.java
+  13/09/16 15:23:48  Successfully parsed file ConfigurationResource.java
+  13/09/16 15:23:48  ************************************************************************************
+  13/09/16 15:23:48  Processing file PublicationResource.java
+  13/09/16 15:23:48  Started parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\PublicationResource.java
+  13/09/16 15:23:48  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:48  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Validate-Language-Code=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8006=1=en-us=.xml
+  13/09/16 15:23:48  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:48  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Publication-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8007=1=en-us=.xml
+  13/09/16 15:23:48  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:48  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-Publication=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8008=1=en-us=.xml
+  13/09/16 15:23:48  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:48  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-Publication=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8009=1=en-us=.xml
+  13/09/16 15:23:48  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:48  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-Language=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800A=1=en-us=.xml
+  13/09/16 15:23:48  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:48  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:48  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-Language=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800B=1=en-us=.xml
+  13/09/16 15:23:48  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Publications-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800C=1=en-us=.xml
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Publication-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800D=1=en-us=.xml
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Language-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800E=1=en-us=.xml
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Language-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF800F=1=en-us=.xml
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-Publication-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8010=1=en-us=.xml
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-Language-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8011=1=en-us=.xml
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-or-Update-Publication-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8012=1=en-us=.xml
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-or-Update-Language-Configuration-Item=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8013=1=en-us=.xml
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Check-Publication-Visiblity=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8014=1=en-us=.xml
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Check-Publication-Existence=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8015=1=en-us=.xml
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Check-Language-Existence=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8016=1=en-us=.xml
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Publication-Management-V2=GUID-F262882F-C735-4432-9593-2B0E547A2338=1=en-us=.xml
+  13/09/16 15:23:49  Total number of function in C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\PublicationResource.java is 17
+  13/09/16 15:23:49  Finished parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\PublicationResource.java
+  13/09/16 15:23:49  Successfully parsed file PublicationResource.java
+  13/09/16 15:23:49  ************************************************************************************
+  13/09/16 15:23:49  Processing file SearchIndexResource.java
+  13/09/16 15:23:49  Started parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\SearchIndexResource.java
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Search-Indexes=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8018=1=en-us=.xml
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-Search-Index=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8019=1=en-us=.xml
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-Search-Index=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF801A=1=en-us=.xml
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Search-Index-Management-V2=GUID-D4FFAE43-88A5-4531-A56B-422EC6FC77E5=1=en-us=.xml
+  13/09/16 15:23:49  Total number of function in C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\SearchIndexResource.java is 3
+  13/09/16 15:23:49  Finished parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\SearchIndexResource.java
+  13/09/16 15:23:49  Successfully parsed file SearchIndexResource.java
+  13/09/16 15:23:49  ************************************************************************************
+  13/09/16 15:23:49  Processing file SiteMapResource.java
+  13/09/16 15:23:49  Started parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\SiteMapResource.java
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-a-Sitemap=GUID-96237A49-0000-0140-1296-F0B7FFFF8001=1=en-us=.xml
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-or-Update-Sitemap=GUID-96237A49-0000-0140-1296-F0B7FFFF8002=1=en-us=.xml
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-Sitemaps=GUID-96237A49-0000-0140-1296-F0B7FFFF8003=1=en-us=.xml
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Sitemap-Management--V2=GUID-96237A49-0000-0140-1296-F0B7FFFF8000=1=en-us=.xml
+  13/09/16 15:23:49  Total number of function in C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\SiteMapResource.java is 3
+  13/09/16 15:23:49  Finished parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\SiteMapResource.java
+  13/09/16 15:23:49  Successfully parsed file SiteMapResource.java
+  13/09/16 15:23:49  ************************************************************************************
+  13/09/16 15:23:49  Processing file SkinResource.java
+  13/09/16 15:23:49  Started parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\SkinResource.java
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Skins=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF801C=1=en-us=.xml
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-Skin=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF801D=1=en-us=.xml
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-Skin=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF801E=1=en-us=.xml
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Skin-Management-V2=GUID-1C58971C-F055-40E8-A0A0-498F31080B2F=1=en-us=.xml
+  13/09/16 15:23:49  Total number of function in C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\SkinResource.java is 3
+  13/09/16 15:23:49  Finished parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\SkinResource.java
+  13/09/16 15:23:49  Successfully parsed file SkinResource.java
+  13/09/16 15:23:49  ************************************************************************************
+  13/09/16 15:23:49  Processing file StandardResource.java
+  13/09/16 15:23:49  Started parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\StandardResource.java
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-Standards=GUID-AAA95141-0000-013F-A0E7-2C91FFFF8001=1=en-us=.xml
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-a-Standard=GUID-AAA95141-0000-013F-A0E7-2C91FFFF8002=1=en-us=.xml
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-a-Standard=GUID-AAA95141-0000-013F-A0E7-2C91FFFF8003=1=en-us=.xml
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Standards-Configuration-V2=GUID-AAA95141-0000-013F-A0E7-2C91FFFF8000=1=en-us=.xml
+  13/09/16 15:23:49  Total number of function in C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\StandardResource.java is 3
+  13/09/16 15:23:49  Finished parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\StandardResource.java
+  13/09/16 15:23:49  Successfully parsed file StandardResource.java
+  13/09/16 15:23:49  ************************************************************************************
+  13/09/16 15:23:49  Processing file UserResource.java
+  13/09/16 15:23:49  Started parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\UserResource.java
+  13/09/16 15:23:49  Total number of function in C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\UserResource.java is 0
+  13/09/16 15:23:49  Finished parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\UserResource.java
+  13/09/16 15:23:49  Successfully parsed file UserResource.java
+  13/09/16 15:23:49  ************************************************************************************
+  13/09/16 15:23:49  Processing file XFormResource.java
+  13/09/16 15:23:49  Started parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\XFormResource.java
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-XForm-Template-Configurations=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8020=1=en-us=.xml
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Fetch-an-XForm-Template-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8021=1=en-us=.xml
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Create-or-Update-an-XForm-Template-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8022=1=en-us=.xml
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\Delete-an-XForm-Template-Configuration=GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8023=1=en-us=.xml
+  13/09/16 15:23:49  MyResolver:: sPath:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: this.base_path:: C:\Dev\Atmel\RestAPIJavaDocGenerator
+  13/09/16 15:23:49  MyResolver:: path.toString:: C:\Dev\Atmel\RestAPIJavaDocGeneratorincludes.xsl
+  13/09/16 15:23:49  Saving topic: C:/Dev/Atmel/RestAPIJavaDocGenerator/DocOut\XForms---User-Generated-Content-V2=GUID-2E323793-5327-4F9D-9435-CD23BE487091=1=en-us=.xml
+  13/09/16 15:23:49  Total number of function in C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\XFormResource.java is 4
+  13/09/16 15:23:49  Finished parsing input file C:\Dev\Atmel\RestAPIJavaDocGenerator\restAPIsrc\XFormResource.java
+  13/09/16 15:23:49  Successfully parsed file XFormResource.java
+  13/09/16 15:23:49  ************************************************************************************
+  13/09/16 15:23:49  
+  13/09/16 15:23:49  Total number of files parsed is 9
+  13/09/16 15:23:49  End Run.

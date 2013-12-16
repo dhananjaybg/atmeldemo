@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="GUID-AAA95141-0000-013F-A0E7-2C91FFFF8000">
+<title>Standards Configuration V2</title>
+<shortdesc>Create, Fetch or Delete Standards supported by SDL LiveContent Reach</shortdesc>
+<refbody>
+<section>
+<p>
+<table>
+<tgroup cols="6">
+<colspec colwidth="*" colname="col1" colnum="1"/>
+<colspec colwidth="*" colname="col2" colnum="2"/>
+<colspec colwidth="*" colname="col3" colnum="3"/>
+<colspec colwidth="*" colname="col4" colnum="4"/>
+<colspec colwidth="*" colname="col5" colnum="5"/>
+<colspec colwidth="*" colname="col6" colnum="6"/>
+<thead>
+<row>
+<entry colname="col1"> API Call </entry>
+<entry colname="col2"> HTTP Method </entry>
+<entry colname="col3"> URL </entry>
+<entry colname="col4"> Format </entry>
+<entry colname="col5"> Form Data </entry>
+<entry colname="col6"> Permissions </entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1">
+<xref type="reference" scope="local" format="dita" href="GUID-AAA95141-0000-013F-A0E7-2C91FFFF8002#GUID-AAA95141-0000-013F-A0E7-2C91FFFF8002">Create a Standard</xref>
+</entry>
+<entry colname="col2">
+<codeph>POST</codeph>
+</entry>
+<entry colname="col3">
+<filepath>/v2/standards/{name}</filepath>
+</entry>
+<entry colname="col4">
+<codeblock>[application/json] OR [application/xml]</codeblock>
+</entry>
+<entry colname="col5">
+<codeblock/>
+</entry>
+<entry colname="col6">
+<uicontrol>"Manage application"</uicontrol>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<xref type="reference" scope="local" format="dita" href="GUID-AAA95141-0000-013F-A0E7-2C91FFFF8003#GUID-AAA95141-0000-013F-A0E7-2C91FFFF8003">Delete a Standard</xref>
+</entry>
+<entry colname="col2">
+<codeph>DELETE</codeph>
+</entry>
+<entry colname="col3">
+<filepath>/v2/standards/{name}</filepath>
+</entry>
+<entry colname="col4">
+<codeblock>[application/json] OR [application/xml]</codeblock>
+</entry>
+<entry colname="col5">
+<codeblock/>
+</entry>
+<entry colname="col6">
+<uicontrol>"Manage application"</uicontrol>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<xref type="reference" scope="local" format="dita" href="GUID-AAA95141-0000-013F-A0E7-2C91FFFF8001#GUID-AAA95141-0000-013F-A0E7-2C91FFFF8001">Fetch Standards</xref>
+</entry>
+<entry colname="col2">
+<codeph>GET</codeph>
+</entry>
+<entry colname="col3">
+<filepath>v2/standards</filepath>
+</entry>
+<entry colname="col4">
+<codeblock/>
+</entry>
+<entry colname="col5">
+<codeblock/>
+</entry>
+<entry colname="col6">
+<uicontrol>"Develop application"</uicontrol>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</p>
+</section>
+</refbody>
+</reference>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<filemap sourcebasepath="C:\Dev\Atmel\in" dita2trisoft="10.1.0.0">
+  <file id="GUID-C37C49C6-F581-4098-A935-A7D91191F787" targetfolder="Import" title="DJ Import Race 42535 " filetype="ISHModule" filepath="dj_game.xml" filename="dj_game.xml" fileextension=".xml" folderhasmixedcontent="False">
+    <ishobject ishref="GUID-C37C49C6-F581-4098-A935-A7D91191F787" ishtype="ISHModule">
+      <ishfields>
+        <ishfield name="DOC-LANGUAGE" level="lng" xml:space="preserve">en</ishfield>
+        <ishfield name="FTITLE" level="logical" xml:space="preserve">DJ Import Race 42535 </ishfield>
+        <ishfield name="VERSION" level="version" xml:space="preserve">1</ishfield>
+      </ishfields>
+    </ishobject>
+  </file>
+</filemap>

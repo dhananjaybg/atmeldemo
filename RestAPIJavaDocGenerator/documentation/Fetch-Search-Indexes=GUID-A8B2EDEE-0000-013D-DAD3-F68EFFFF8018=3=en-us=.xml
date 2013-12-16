@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference outputclass="NewPage" id="GUID-A8B2EDEE-0000-013D-DAD3-F68EFFFF8018">
+   <title>Fetch Search Indexes</title>
+   <shortdesc>Fetches the full list of search indexes.</shortdesc>
+   <refbody>
+      <section>
+         <title>Request</title>
+         <p>
+            <parmname>URI: </parmname>
+            <codeph>/v2/searchindex</codeph>
+         </p>
+         <p>
+            <parmname>HTTP Method: </parmname>GET</p>
+         <p>
+            <b>Header params:</b>
+            <ul>
+               <li>
+                  <parmname>Accept: </parmname>
+                  <codeph>[application/json] OR [application/xml]</codeph>
+               </li>
+               <li>
+                  <parmname>Content-Type: </parmname>
+                  <codeph>[application/json] OR [application/xml]</codeph>
+               </li>
+            </ul>
+         </p>
+      </section>
+      <section>
+         <title>Response</title>
+         <p>
+            <b>Success</b>
+            <ul>
+               <li>
+                  <parmname>XML:</parmname>
+                  <codeph>&lt;configuration&gt;&lt;indexes indexed="true" indexed_audit="true"&gt;&lt;index attribute="" id="search.category.indexterms" ignore="" inline="" standards="DITA" tags="" xpath="//indexterm[not(parent::indexterm)]" xpath_end="indexterm"/&gt;&lt;index attribute="" id="search.category.figure.title" ignore="" inline="" standards="DITA" tags="" xpath="//fig/title" xpath_end="title"/&gt;&lt;index attribute="" id="search.category.table.title" ignore="" inline="" standards="DITA,S1000D" tags="" xpath="//table/title" xpath_end="title"/&gt;&lt;index attribute="" id="examplename" ignore="" inline="" standards="DITA" tags="" xpath="//ben" xpath_end="ben"/&gt;&lt;/indexes&gt;&lt;/configuration&gt; </codeph>
+               </li>
+               <li>
+                  <parmname>JSON:</parmname>
+                  <codeph>{"indexes":[{"indexed":"true", "indexed_audit":"true", "index":[{"attribute":"", "id":"search.category.indexterms", "ignore":"", "inline":"", "standards":"DITA", "tags":"", "xpath":"//indexterm[not(parent::indexterm)]", "xpath_end":"indexterm"},{"attribute":"", "id":"search.category.figure.title", "ignore":"", "inline":"", "standards":"DITA", "tags":"", "xpath":"//fig/title", "xpath_end":"title"},{"attribute":"", "id":"search.category.table.title", "ignore":"", "inline":"", "standards":"DITA,S1000D", "tags":"", "xpath":"//table/title", "xpath_end":"title"},{"attribute":"", "id":"examplename", "ignore":"", "inline":"", "standards":"DITA", "tags":"", "xpath":"//ben", "xpath_end":"ben"}]}]} </codeph>
+               </li>
+            </ul>
+         </p>
+         <p>
+            <b>Failed</b>
+            <ul>
+               <li>
+                  <parmname>XML:</parmname>
+                  <codeph>&lt;result message="Not Found" messageKey="Not Found" status="FAIL" statusCode="404" /&gt; </codeph>
+               </li>
+               <li>
+                  <parmname>JSON:</parmname>
+                  <codeph>{"statusCode":404,"messageKey":"Not Found", "message":"Not Found", "status":"FAIL", "info":[]} </codeph>
+               </li>
+            </ul>
+         </p>
+      </section>
+      <section>
+         <title>Permissions</title>
+         <p>"Use application"</p>
+      </section>
+      <section>
+         <title>Example</title>
+         <p>
+            <b>Request:</b>
+         </p>
+         <p>
+            <b>GET</b> 
+            <codeph>http://example.corp:8080/LiveContent/v2/searchindex</codeph>
+         </p>
+         <p>
+            <b>Response:</b>
+         </p>
+         <p>
+            <codeph>&lt;configuration&gt;&lt;indexes indexed="true" indexed_audit="true"&gt;&lt;index attribute="" id="search.category.indexterms" ignore="" inline="" standards="DITA" tags="" xpath="//indexterm[not(parent::indexterm)]" xpath_end="indexterm"/&gt;&lt;index attribute="" id="search.category.figure.title" ignore="" inline="" standards="DITA" tags="" xpath="//fig/title" xpath_end="title"/&gt;&lt;index attribute="" id="search.category.table.title" ignore="" inline="" standards="DITA,S1000D" tags="" xpath="//table/title" xpath_end="title"/&gt;&lt;index attribute="" id="examplename" ignore="" inline="" standards="DITA" tags="" xpath="//ben" xpath_end="ben"/&gt;&lt;/indexes&gt;&lt;/configuration&gt; </codeph>
+         </p>
+      </section>
+   </refbody>
+</reference>
